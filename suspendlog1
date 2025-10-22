@@ -1,0 +1,311 @@
+Oct 21 19:05:47 fedora systemd-logind[1217]: The system will suspend now!
+Oct 21 19:05:47 fedora ModemManager[1400]: <msg> [sleep-monitor-systemd] system is about to suspend
+Oct 21 19:05:47 fedora NetworkManager[1528]: <info>  [1761091547.8944] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Oct 21 19:05:47 fedora asusd[1445]: [DEBUG asusd] Doing on_prepare_for_sleep(true)
+Oct 21 19:05:47 fedora NetworkManager[1528]: <info>  [1761091547.8947] device (p2p-dev-wlp2s0): state change: disconnected -> unmanaged (reason 'unmanaged-sleeping', managed-type: 'full')
+Oct 21 19:05:47 fedora NetworkManager[1528]: <info>  [1761091547.8950] manager: NetworkManager state is now ASLEEP
+Oct 21 19:05:47 fedora NetworkManager[1528]: <info>  [1761091547.8951] device (wlp2s0): state change: activated -> deactivating (reason 'sleeping', managed-type: 'full')
+Oct 21 19:05:47 fedora dbus-broker[1173]: A security policy denied :1.92 to send method call /org/freedesktop/login1/seat/seat0:org.freedesktop.login1.Seat.Inhibit to org.freedesktop.login1.
+Oct 21 19:05:47 fedora kwin_wayland[2131]: kwin_core: Failed to delay sleep: Sender is not authorized to send message
+Oct 21 19:05:47 fedora systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+Oct 21 19:05:47 fedora NetworkManager[1528]: <info>  [1761091547.9218] audit: op="statistics" interface="wlp2s0" ifindex=2 args="0" pid=2386 uid=1000 result="success"
+Oct 21 19:05:47 fedora systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+Oct 21 19:05:47 fedora audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostn>
+Oct 21 19:05:47 fedora kernel: wlp2s0: deauthenticating from e6:55:b8:0e:f2:e0 by local choice (Reason: 3=DEAUTH_LEAVING)
+Oct 21 19:05:47 fedora flatpak[4827]: 19:05:47.931 › [GatewaySocket] Performing an expedited heartbeat reason: network detected offline.
+Oct 21 19:05:47 fedora NetworkManager[1528]: <info>  [1761091547.9364] audit: op="statistics" interface="wlp2s0" ifindex=2 args="500" pid=2526 uid=1000 result="success"
+Oct 21 19:05:48 fedora wpa_supplicant[1546]: nl80211: send_event_marker failed: Source based routing not supported
+Oct 21 19:05:48 fedora wpa_supplicant[1546]: wlp2s0: CTRL-EVENT-DISCONNECTED bssid=e6:55:b8:0e:f2:e0 reason=3 locally_generated=1
+Oct 21 19:05:48 fedora NetworkManager[1528]: <info>  [1761091548.0500] device (wlp2s0): supplicant interface state: completed -> disconnected
+Oct 21 19:05:48 fedora wpa_supplicant[1546]: wlp2s0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 21 19:05:48 fedora NetworkManager[1528]: <info>  [1761091548.0501] device (wlp2s0): state change: deactivating -> disconnected (reason 'sleeping', managed-type: 'full')
+Oct 21 19:05:48 fedora avahi-daemon[1176]: Withdrawing address record for fd7c:6f3e:feeb:cf4f:5a44:884d:44d:1aac on wlp2s0.
+Oct 21 19:05:48 fedora NetworkManager[1528]: <info>  [1761091548.0506] dhcp4 (wlp2s0): canceled DHCP transaction
+Oct 21 19:05:48 fedora avahi-daemon[1176]: Leaving mDNS multicast group on interface wlp2s0.IPv6 with address fd7c:6f3e:feeb:cf4f:5a44:884d:44d:1aac.
+Oct 21 19:05:48 fedora NetworkManager[1528]: <info>  [1761091548.0506] dhcp4 (wlp2s0): activation: beginning transaction (timeout in 45 seconds)
+Oct 21 19:05:48 fedora avahi-daemon[1176]: Joining mDNS multicast group on interface wlp2s0.IPv6 with address fe80::65a0:b1d7:8f6b:c0a6.
+Oct 21 19:05:48 fedora NetworkManager[1528]: <info>  [1761091548.0506] dhcp4 (wlp2s0): state changed no lease
+Oct 21 19:05:48 fedora avahi-daemon[1176]: Registering new address record for fe80::65a0:b1d7:8f6b:c0a6 on wlp2s0.*.
+Oct 21 19:05:48 fedora wpa_supplicant[1546]: wlp2s0: PMKSA-CACHE-REMOVED e6:55:b8:0e:f2:e0 0
+Oct 21 19:05:48 fedora avahi-daemon[1176]: Withdrawing address record for fe80::65a0:b1d7:8f6b:c0a6 on wlp2s0.
+Oct 21 19:05:48 fedora avahi-daemon[1176]: Leaving mDNS multicast group on interface wlp2s0.IPv6 with address fe80::65a0:b1d7:8f6b:c0a6.
+Oct 21 19:05:48 fedora avahi-daemon[1176]: Interface wlp2s0.IPv6 no longer relevant for mDNS.
+Oct 21 19:05:48 fedora DiscoverNotifier[2892]: packagekitqt.offline: Cannot process "org.freedesktop.PackageKit" as "org.freedesktop.PackageKit.Offline"
+Oct 21 19:05:48 fedora audit[1401]: NETFILTER_CFG table=firewalld:8 family=1 entries=26 op=nft_unregister_rule pid=1401 subj=system_u:system_r:firewalld_t:s0 comm="firewalld"
+Oct 21 19:05:48 fedora avahi-daemon[1176]: Interface wlp2s0.IPv4 no longer relevant for mDNS.
+Oct 21 19:05:48 fedora avahi-daemon[1176]: Leaving mDNS multicast group on interface wlp2s0.IPv4 with address 10.73.127.171.
+Oct 21 19:05:48 fedora NetworkManager[1528]: <info>  [1761091548.0795] device (wlp2s0): set-hw-addr: set MAC address to 32:22:B3:57:1D:26 (scanning)
+Oct 21 19:05:48 fedora avahi-daemon[1176]: Withdrawing address record for 10.73.127.171 on wlp2s0.
+Oct 21 19:05:48 fedora avahi-daemon[1176]: Joining mDNS multicast group on interface wlp2s0.IPv4 with address 10.73.127.171.
+Oct 21 19:05:48 fedora avahi-daemon[1176]: New relevant interface wlp2s0.IPv4 for mDNS.
+Oct 21 19:05:48 fedora avahi-daemon[1176]: Registering new address record for 10.73.127.171 on wlp2s0.IPv4.
+Oct 21 19:05:48 fedora avahi-daemon[1176]: Withdrawing address record for 10.73.127.171 on wlp2s0.
+Oct 21 19:05:48 fedora avahi-daemon[1176]: Leaving mDNS multicast group on interface wlp2s0.IPv4 with address 10.73.127.171.
+Oct 21 19:05:48 fedora avahi-daemon[1176]: Interface wlp2s0.IPv4 no longer relevant for mDNS.
+Oct 21 19:05:48 fedora systemd-resolved[1086]: wlp2s0: Bus client reset search domain list.
+Oct 21 19:05:48 fedora NetworkManager[1528]: <info>  [1761091548.1115] device (wlp2s0): supplicant interface state: disconnected -> interface_disabled
+Oct 21 19:05:48 fedora NetworkManager[1528]: <info>  [1761091548.1116] device (wlp2s0): supplicant interface state: interface_disabled -> disconnected
+Oct 21 19:05:48 fedora NetworkManager[1528]: <info>  [1761091548.1118] device (wlp2s0): state change: disconnected -> unmanaged (reason 'unmanaged-sleeping', managed-type: 'full')
+Oct 21 19:05:48 fedora systemd-resolved[1086]: wlp2s0: Bus client set default route setting: no
+Oct 21 19:05:48 fedora systemd-resolved[1086]: wlp2s0: Bus client reset DNS server list.
+Oct 21 19:05:48 fedora kscreenlocker_greet[6007]: kf.svg: Could not locate KSvg image set "Nordic" in "plasma/desktoptheme/" using search path QList("/home/janderson/.local/share", "/home/janderson/.local/share>
+Oct 21 19:05:48 fedora kscreenlocker_greet[6007]: kf.plasma.core: Could not locate plasma theme "Nordic" in plasma/desktoptheme/ using search path QList("/home/janderson/.local/share", "/home/janderson/.local/s>
+Oct 21 19:05:48 fedora chronyd[1185]: Removed source 140.88.127.240
+Oct 21 19:05:48 fedora chronyd[1185]: Selected source 23.150.41.123 (2.fedora.pool.ntp.org)
+Oct 21 19:05:48 fedora chronyd[1185]: Removed source 140.88.127.241
+Oct 21 19:05:48 fedora chronyd[1185]: Removed source 140.88.127.242
+Oct 21 19:05:48 fedora chronyd[1185]: Removed source 140.88.127.243
+Oct 21 19:05:48 fedora chronyd[1185]: Source 149.28.118.175 offline
+Oct 21 19:05:48 fedora chronyd[1185]: Source 104.131.155.175 offline
+Oct 21 19:05:48 fedora chronyd[1185]: Source 173.208.172.164 offline
+Oct 21 19:05:48 fedora chronyd[1185]: Can't synchronise: no selectable sources (4 unreachable sources)
+Oct 21 19:05:48 fedora chronyd[1185]: Source 23.150.41.123 offline
+Oct 21 19:05:48 fedora NetworkManager[1528]: <info>  [1761091548.1457] device (wlp2s0): set-hw-addr: reset MAC address to 34:6F:24:7E:9C:0D (unmanage)
+Oct 21 19:05:48 fedora wpa_supplicant[1546]: p2p-dev-wlp2s0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 21 19:05:48 fedora wpa_supplicant[1546]: p2p-dev-wlp2s0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 21 19:05:48 fedora wpa_supplicant[1546]: nl80211: deinit ifname=p2p-dev-wlp2s0 disabled_11b_rates=0
+Oct 21 19:05:48 fedora wpa_supplicant[1546]: wlp2s0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 21 19:05:48 fedora wpa_supplicant[1546]: wlp2s0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 21 19:05:48 fedora wpa_supplicant[1546]: nl80211: deinit ifname=wlp2s0 disabled_11b_rates=0
+Oct 21 19:05:48 fedora systemd[1]: Reached target sleep.target - Sleep.
+Oct 21 19:05:48 fedora systemd[1]: Starting nvidia-suspend.service - NVIDIA system suspend actions...
+Oct 21 19:05:48 fedora suspend[6109]: nvidia-suspend.service
+Oct 21 19:05:48 fedora logger[6109]: <13>Oct 21 19:05:48 suspend: nvidia-suspend.service
+Oct 21 19:05:48 fedora kernel: ------------[ cut here ]------------
+Oct 21 19:05:48 fedora kernel: nv_kthread_q: task: nvidia-sleep.sh: Not allowed: nv_kthread_q_flush was called after nv_kthread_q_stop. q: 0x0000000072fe545c
+Oct 21 19:05:48 fedora kernel: WARNING: CPU: 4 PID: 6111 at nvidia/nv-kthread-q.c:319 nv_kthread_q_flush+0x12a/0x140 [nvidia]
+Oct 21 19:05:48 fedora kernel: Modules linked in: uinput ccm nvidia_uvm(OE) rfcomm snd_seq_dummy snd_hrtimer cmac algif_hash algif_skcipher af_alg nf_conntrack_netbios_ns nf_conntrack_broadcast nft_fib_inet nft>
+Oct 21 19:05:48 fedora kernel:  snd_rpl_pci_acp6x snd_acp_pci snd_hda_core nvidia_drm(OE) mt76_connac_lib snd_amd_acpi_mach snd_intel_dspcfg snd_acp_legacy_common snd_intel_sdw_acpi mt76 snd_hwdep snd_pci_acp6x>
+Oct 21 19:05:48 fedora kernel:  video i2c_hid_acpi wmi i2c_hid hid_logitech_dj i2c_dev
+Oct 21 19:05:48 fedora kernel: CPU: 4 UID: 0 PID: 6111 Comm: nvidia-sleep.sh Tainted: G           OE       6.17.3-cachyos2.fc42.x86_64 #1 PREEMPT(full)  46b2d61760fd0001a23ab9b1d923136c81359c79
+Oct 21 19:05:48 fedora kernel: Tainted: [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+Oct 21 19:05:48 fedora kernel: Hardware name: ASUSTeK COMPUTER INC. ROG Zephyrus G14 GA401QM_GA401QM/GA401QM, BIOS GA401QM.415 08/11/2023
+Oct 21 19:05:48 fedora kernel: RIP: 0010:nv_kthread_q_flush+0x12a/0x140 [nvidia]
+Oct 21 19:05:48 fedora kernel: Code: a0 99 c2 e8 18 76 b2 c2 0f 0b eb c1 65 48 8b 05 f4 a2 8d c5 4c 89 e2 48 c7 c7 18 a1 99 c2 48 8d b0 f0 0c 00 00 e8 f6 75 b2 c2 <0f> 0b eb 9f e8 ed 77 b1 c3 66 66 2e 0f 1f 84 >
+Oct 21 19:05:48 fedora kernel: RSP: 0018:ffffcd2e96d6bb00 EFLAGS: 00010246
+Oct 21 19:05:48 fedora kernel: RAX: 0000000000000000 RBX: 0000000000000000 RCX: 0000000000000027
+Oct 21 19:05:48 fedora kernel: RDX: ffff8d199e51cfc8 RSI: 0000000000000001 RDI: ffff8d199e51cfc0
+Oct 21 19:05:48 fedora kernel: RBP: ffffcd2e96d6bb70 R08: 0000000000000000 R09: 00000000ffffefff
+Oct 21 19:05:48 fedora kernel: R10: ffffffff86860d60 R11: ffffcd2e96d6b998 R12: ffff8d16cab85168
+Oct 21 19:05:48 fedora kernel: R13: 0000000000000001 R14: 0000000000000001 R15: 0000000000000001
+Oct 21 19:05:48 fedora kernel: FS:  00007eff450eb740(0000) GS:ffff8d1a17022000(0000) knlGS:0000000000000000
+Oct 21 19:05:48 fedora kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+Oct 21 19:05:48 fedora kernel: CR2: 00007fd3037fe9b8 CR3: 0000000223302000 CR4: 0000000000f50ef0
+Oct 21 19:05:48 fedora kernel: PKRU: 55555554
+Oct 21 19:05:48 fedora kernel: Call Trace:
+Oct 21 19:05:48 fedora kernel:  <TASK>
+Oct 21 19:05:48 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:05:48 fedora kernel:  ? thread_context_current+0x75/0x140 [nvidia_uvm 134fbdb82e23be87fd674a8bc5b0303db4bd6c6f]
+Oct 21 19:05:48 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:05:48 fedora kernel:  nv_power_management+0x87/0x170 [nvidia e59fafd3dd5f1c1dfabddcae1f39e1c1e15036cf]
+Oct 21 19:05:48 fedora kernel:  nvidia_suspend+0x7f/0x150 [nvidia e59fafd3dd5f1c1dfabddcae1f39e1c1e15036cf]
+Oct 21 19:05:48 fedora kernel:  nv_set_system_power_state+0x266/0x540 [nvidia e59fafd3dd5f1c1dfabddcae1f39e1c1e15036cf]
+Oct 21 19:05:48 fedora kernel:  ? security_capable+0x94/0x1a0
+Oct 21 19:05:48 fedora kernel:  nv_procfs_write_suspend+0xee/0x170 [nvidia e59fafd3dd5f1c1dfabddcae1f39e1c1e15036cf]
+Oct 21 19:05:48 fedora kernel:  proc_reg_write+0x5a/0xb0
+Oct 21 19:05:48 fedora kernel:  vfs_write+0xce/0x480
+Oct 21 19:05:48 fedora kernel:  ksys_write+0x73/0xf0
+Oct 21 19:05:48 fedora kernel:  do_syscall_64+0x81/0x970
+Oct 21 19:05:48 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:05:48 fedora kernel:  ? do_fault+0x34c/0x5a0
+Oct 21 19:05:48 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:05:48 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:05:48 fedora kernel:  ? __handle_mm_fault+0x8bb/0xef0
+Oct 21 19:05:48 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:05:48 fedora kernel:  ? do_syscall_64+0x81/0x970
+Oct 21 19:05:48 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:05:48 fedora kernel:  ? count_memcg_events+0xc2/0x190
+Oct 21 19:05:48 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:05:48 fedora kernel:  ? handle_mm_fault+0x1d7/0x2d0
+Oct 21 19:05:48 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:05:48 fedora kernel:  ? do_user_addr_fault+0x21a/0x690
+Oct 21 19:05:48 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:05:48 fedora kernel:  ? exc_page_fault+0x7e/0x1a0
+Oct 21 19:05:48 fedora kernel:  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+Oct 21 19:05:48 fedora kernel: RIP: 0033:0x7eff4515c77e
+Oct 21 19:05:48 fedora kernel: Code: 4d 89 d8 e8 d4 bc 00 00 4c 8b 5d f8 41 8b 93 08 03 00 00 59 5e 48 83 f8 fc 74 11 c9 c3 0f 1f 80 00 00 00 00 48 8b 45 10 0f 05 <c9> c3 83 e2 39 83 fa 08 75 e7 e8 13 ff ff ff >
+Oct 21 19:05:48 fedora kernel: RSP: 002b:00007ffe968dbfd0 EFLAGS: 00000202 ORIG_RAX: 0000000000000001
+Oct 21 19:05:48 fedora kernel: RAX: ffffffffffffffda RBX: 0000000000000008 RCX: 00007eff4515c77e
+Oct 21 19:05:48 fedora kernel: RDX: 0000000000000008 RSI: 0000559d46f56a60 RDI: 0000000000000001
+Oct 21 19:05:48 fedora kernel: RBP: 00007ffe968dbfe0 R08: 0000000000000000 R09: 0000000000000000
+Oct 21 19:05:48 fedora kernel: R10: 0000000000000000 R11: 0000000000000202 R12: 0000000000000008
+Oct 21 19:05:48 fedora kernel: R13: 0000559d46f56a60 R14: 00007eff452d75c0 R15: 0000000000000000
+Oct 21 19:05:48 fedora kernel:  </TASK>
+Oct 21 19:05:48 fedora kernel: ---[ end trace 0000000000000000 ]---
+Oct 21 19:05:48 fedora bluetoothd[1298]: Endpoint unregistered: sender=:1.90 path=/MediaEndpoint/A2DPSource/ldac
+Oct 21 19:05:48 fedora bluetoothd[1298]: Endpoint unregistered: sender=:1.90 path=/MediaEndpoint/A2DPSink/aac
+Oct 21 19:05:48 fedora bluetoothd[1298]: Endpoint unregistered: sender=:1.90 path=/MediaEndpoint/A2DPSource/aac
+Oct 21 19:05:48 fedora bluetoothd[1298]: Endpoint unregistered: sender=:1.90 path=/MediaEndpoint/A2DPSink/opus_g
+Oct 21 19:05:48 fedora bluetoothd[1298]: Endpoint unregistered: sender=:1.90 path=/MediaEndpoint/A2DPSource/opus_g
+Oct 21 19:05:48 fedora bluetoothd[1298]: Endpoint unregistered: sender=:1.90 path=/MediaEndpoint/A2DPSink/sbc
+Oct 21 19:05:48 fedora bluetoothd[1298]: Endpoint unregistered: sender=:1.90 path=/MediaEndpoint/A2DPSource/sbc
+Oct 21 19:05:48 fedora bluetoothd[1298]: Endpoint unregistered: sender=:1.90 path=/MediaEndpoint/A2DPSource/faststream
+Oct 21 19:05:48 fedora bluetoothd[1298]: Endpoint unregistered: sender=:1.90 path=/MediaEndpoint/A2DPSource/faststream_duplex
+Oct 21 19:05:48 fedora bluetoothd[1298]: Endpoint unregistered: sender=:1.90 path=/MediaEndpoint/A2DPSink/opus_05
+Oct 21 19:05:48 fedora bluetoothd[1298]: Endpoint unregistered: sender=:1.90 path=/MediaEndpoint/A2DPSource/opus_05
+Oct 21 19:05:48 fedora bluetoothd[1298]: Endpoint unregistered: sender=:1.90 path=/MediaEndpoint/A2DPSink/opus_05_duplex
+Oct 21 19:05:48 fedora bluetoothd[1298]: Endpoint unregistered: sender=:1.90 path=/MediaEndpoint/A2DPSource/opus_05_duplex
+Oct 21 19:05:48 fedora plasmashell[2386]: org.kde.pulseaudio: No object for name "alsa_input.pci-0000_04_00.6.analog-stereo"
+Oct 21 19:05:48 fedora kded6[2338]: org.kde.pulseaudio: No object for name "alsa_input.pci-0000_04_00.6.analog-stereo"
+Oct 21 19:05:48 fedora kded6[2338]: org.kde.pulseaudio: No object for name "alsa_output.pci-0000_04_00.6.analog-stereo"
+Oct 21 19:05:48 fedora kded6[2338]: org.kde.pulseaudio: No object for name "alsa_input.pci-0000_04_00.6.analog-stereo"
+Oct 21 19:05:48 fedora kded6[2338]: org.kde.pulseaudio: No object for name "@DEFAULT_SINK@"
+Oct 21 19:05:48 fedora kded6[2338]: org.kde.pulseaudio: No object for name "@DEFAULT_SOURCE@"
+Oct 21 19:05:48 fedora plasmashell[2386]: qrc:/qt/qml/plasma/applet/org/kde/plasma/volume/main.qml:100: TypeError: Cannot read property 'description' of undefined
+Oct 21 19:05:48 fedora plasmashell[2386]: file:///home/janderson/.local/share/plasma/plasmoids/KdeControlStation/contents/ui/pages/VolumePage.qml:42: TypeError: Cannot read property 'pulseProperties' of undefin>
+Oct 21 19:05:48 fedora kded6[2338]: org.kde.pulseaudio: No object for name "@DEFAULT_SINK@"
+Oct 21 19:05:48 fedora kded6[2338]: org.kde.pulseaudio: No object for name "@DEFAULT_SOURCE@"
+Oct 21 19:05:48 fedora plasmashell[2386]: org.kde.pulseaudio: No object for name "alsa_output.pci-0000_04_00.6.analog-stereo"
+Oct 21 19:05:48 fedora plasmashell[2386]: org.kde.pulseaudio: No object for name "alsa_input.pci-0000_04_00.6.analog-stereo"
+Oct 21 19:05:48 fedora plasmashell[2386]: file:///home/janderson/.local/share/plasma/plasmoids/KdeControlStation/contents/ui/components/Volume.qml:44: TypeError: Cannot read property 'volume' of null
+Oct 21 19:05:48 fedora plasmashell[2386]: file:///home/janderson/.local/share/plasma/plasmoids/KdeControlStation/contents/ui/components/Volume.qml:35: TypeError: Cannot read property 'volume' of null
+Oct 21 19:05:48 fedora plasmashell[2386]: file:///home/janderson/.local/share/plasma/plasmoids/KdeControlStation/contents/ui/components/Volume.qml:48: TypeError: Cannot read property 'volume' of null
+Oct 21 19:05:48 fedora plasmashell[2386]: qrc:/qt/qml/plasma/applet/org/kde/plasma/volume/main.qml:100: TypeError: Cannot read property 'description' of undefined
+Oct 21 19:05:48 fedora plasmashell[2386]: file:///home/janderson/.local/share/plasma/plasmoids/KdeControlStation/contents/ui/pages/VolumePage.qml:42: TypeError: Cannot read property 'pulseProperties' of undefin>
+Oct 21 19:05:48 fedora plasmashell[2386]: org.kde.pulseaudio: No object for name "@DEFAULT_SINK@"
+Oct 21 19:05:48 fedora plasmashell[2386]: org.kde.pulseaudio: No object for name "@DEFAULT_SOURCE@"
+Oct 21 19:05:48 fedora plasmashell[2386]: org.kde.pulseaudio: No object for name "@DEFAULT_SINK@"
+Oct 21 19:05:48 fedora plasmashell[2386]: org.kde.pulseaudio: No object for name "@DEFAULT_SOURCE@"
+Oct 21 19:05:48 fedora plasmashell[2386]: org.kde.pulseaudio: No object for name "auto_null.monitor"
+Oct 21 19:05:48 fedora kded6[2338]: org.kde.pulseaudio: No object for name "auto_null.monitor"
+Oct 21 19:05:48 fedora PackageKit[3019]: get-updates transaction /403_aadebbdc from uid 1000 finished with success after 291ms
+Oct 21 19:05:48 fedora uresourced[1635]: Setting resources on user-1000.slice (MemoryMin: 0, MemoryLow: 0, CPUWeight: 100, IOWeight: 100)
+Oct 21 19:05:48 fedora uresourced[1635]: Setting resources on user@1000.service (MemoryMin: 0, MemoryLow: 0, CPUWeight: 100, IOWeight: 100)
+Oct 21 19:05:48 fedora uresourced[1635]: Setting resources on user.slice (MemoryMin: 0, MemoryLow: 0, CPUWeight: -, IOWeight: -)
+Oct 21 19:05:48 fedora kernel: i2c_hid_acpi i2c-ELAN1201:00: i2c_hid_get_input: IRQ triggered but there's no data
+Oct 21 19:05:49 fedora systemd[1]: nvidia-suspend.service: Deactivated successfully.
+Oct 21 19:05:49 fedora systemd[1]: Finished nvidia-suspend.service - NVIDIA system suspend actions.
+Oct 21 19:05:49 fedora audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=nvidia-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=>
+Oct 21 19:05:49 fedora audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=nvidia-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=?>
+Oct 21 19:05:49 fedora systemd[1]: Starting systemd-suspend.service - System Suspend...
+Oct 21 19:05:49 fedora systemd[1]: session-2.scope: Unit now frozen-by-parent.
+Oct 21 19:05:49 fedora systemd[1]: user@1000.service: Unit now frozen-by-parent.
+Oct 21 19:05:49 fedora systemd[1]: user-1000.slice: Unit now frozen-by-parent.
+Oct 21 19:05:49 fedora systemd[1]: user@0.service: Unit now frozen-by-parent.
+Oct 21 19:05:49 fedora systemd[1]: user-0.slice: Unit now frozen-by-parent.
+Oct 21 19:05:49 fedora systemd[1]: user.slice: Unit now frozen.
+Oct 21 19:05:49 fedora systemd-sleep[6151]: Successfully froze unit 'user.slice'.
+Oct 21 19:05:49 fedora bluetoothd[1298]: Terminating
+Oct 21 19:05:49 fedora systemd[1]: Stopping bluetooth.service - Bluetooth service...
+Oct 21 19:05:49 fedora dbus-broker[1173]: A security policy denied :1.14 to send method call /midi/profile:org.bluez.GattProfile1.Release to :1.91.
+Oct 21 19:05:49 fedora bluetoothd[1298]: Battery Provider Manager destroyed
+Oct 21 19:05:49 fedora bluetoothd[1298]: Stopping SDP server
+Oct 21 19:05:49 fedora bluetoothd[1298]: Exit
+Oct 21 19:05:49 fedora systemd[1]: bluetooth.service: Deactivated successfully.
+Oct 21 19:05:49 fedora systemd[1]: Stopped bluetooth.service - Bluetooth service.
+Oct 21 19:05:49 fedora audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=bluetooth comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? term>
+Oct 21 19:05:49 fedora bluetooth-toggle-script[6166]: Bluetooth was active and has been disabled before suspend
+Oct 21 19:05:49 fedora systemd-sleep[6151]: Performing sleep operation 'suspend'...
+Oct 21 19:05:49 fedora kernel: PM: suspend entry (s2idle)
+Oct 21 19:05:49 fedora kernel: Filesystems sync: 0.034 seconds
+Oct 21 19:06:09 fedora kernel: Freezing user space processes
+Oct 21 19:06:09 fedora kernel: Freezing user space processes failed after 20.003 seconds (2 tasks refusing to freeze, wq_busy=0):
+Oct 21 19:06:09 fedora kernel: task:(udev-worker)   state:D stack:0     pid:667   tgid:667   ppid:610    task_flags:0x400140 flags:0x00004006
+Oct 21 19:06:09 fedora kernel: Call Trace:
+Oct 21 19:06:09 fedora kernel:  <TASK>
+Oct 21 19:06:09 fedora kernel:  __schedule+0x418/0x1330
+Oct 21 19:06:09 fedora kernel:  schedule+0x27/0xd0
+Oct 21 19:06:09 fedora kernel:  schedule_preempt_disabled+0x15/0x30
+Oct 21 19:06:09 fedora kernel:  __mutex_lock.constprop.0+0x494/0x9a0
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  control_store+0x21/0x80
+Oct 21 19:06:09 fedora kernel:  kernfs_fop_write_iter+0x14d/0x200
+Oct 21 19:06:09 fedora kernel:  vfs_write+0x25d/0x480
+Oct 21 19:06:09 fedora kernel:  ksys_write+0x73/0xf0
+Oct 21 19:06:09 fedora kernel:  do_syscall_64+0x81/0x970
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? refill_obj_stock+0x12e/0x240
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? __memcg_slab_free_hook+0xfd/0x150
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? audit_reset_context+0x2bd/0x330
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? syscall_exit_work+0x143/0x1b0
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? do_syscall_64+0x245/0x970
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? syscall_exit_work+0x143/0x1b0
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? do_syscall_64+0x245/0x970
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? do_syscall_64+0x245/0x970
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? syscall_exit_work+0x143/0x1b0
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? do_syscall_64+0x245/0x970
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? audit_reset_context+0x2bd/0x330
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? syscall_exit_work+0x143/0x1b0
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? do_syscall_64+0x245/0x970
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? exc_page_fault+0x7e/0x1a0
+Oct 21 19:06:09 fedora kernel:  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+Oct 21 19:06:09 fedora kernel: RIP: 0033:0x7f81d3a7c77e
+Oct 21 19:06:09 fedora kernel: RSP: 002b:00007ffc7569d130 EFLAGS: 00000202 ORIG_RAX: 0000000000000001
+Oct 21 19:06:09 fedora kernel: RAX: ffffffffffffffda RBX: 0000000000000004 RCX: 00007f81d3a7c77e
+Oct 21 19:06:09 fedora kernel: RDX: 0000000000000004 RSI: 00007ffc7569d470 RDI: 000000000000003c
+Oct 21 19:06:09 fedora kernel: RBP: 00007ffc7569d140 R08: 0000000000000000 R09: 0000000000000000
+Oct 21 19:06:09 fedora kernel: R10: 0000000000000000 R11: 0000000000000202 R12: 0000000000000004
+Oct 21 19:06:09 fedora kernel: R13: 00007ffc7569d470 R14: 000055fabb7b08f0 R15: 00007ffc7569d470
+Oct 21 19:06:09 fedora kernel:  </TASK>
+Oct 21 19:06:09 fedora kernel: task:supergfxd       state:R  running task     stack:0     pid:1200  tgid:1200  ppid:1      task_flags:0x400100 flags:0x00004006
+Oct 21 19:06:09 fedora kernel: Call Trace:
+Oct 21 19:06:09 fedora kernel:  <TASK>
+Oct 21 19:06:09 fedora kernel:  ? __pick_next_task+0x3e/0x1b0
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? __schedule+0xe24/0x1330
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? lock_timer_base+0x70/0x90
+Oct 21 19:06:09 fedora kernel:  ? lock_timer_base+0x70/0x90
+Oct 21 19:06:09 fedora kernel:  ? schedule_timeout+0x8b/0x100
+Oct 21 19:06:09 fedora kernel:  ? __pfx_process_timeout+0x10/0x10
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? os_delay+0x10c/0x270 [nvidia e59fafd3dd5f1c1dfabddcae1f39e1c1e15036cf]
+Oct 21 19:06:09 fedora kernel:  ? nv_pci_remove+0x3d9/0x4b0 [nvidia e59fafd3dd5f1c1dfabddcae1f39e1c1e15036cf]
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? pci_device_remove+0x4a/0xc0
+Oct 21 19:06:09 fedora kernel:  ? device_release_driver_internal+0x19e/0x200
+Oct 21 19:06:09 fedora kernel:  ? unbind_store+0xa4/0xb0
+Oct 21 19:06:09 fedora kernel:  ? kernfs_fop_write_iter+0x14d/0x200
+Oct 21 19:06:09 fedora kernel:  ? vfs_write+0x25d/0x480
+Oct 21 19:06:09 fedora kernel:  ? ksys_write+0x73/0xf0
+Oct 21 19:06:09 fedora kernel:  ? do_syscall_64+0x81/0x970
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? __x64_sys_openat+0x61/0xa0
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? do_syscall_64+0x81/0x970
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? do_syscall_64+0x81/0x970
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? do_syscall_64+0x81/0x970
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? do_syscall_64+0x81/0x970
+Oct 21 19:06:09 fedora kernel:  ? __x64_sys_close+0x3d/0x80
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? do_syscall_64+0x81/0x970
+Oct 21 19:06:09 fedora kernel:  ? srso_alias_return_thunk+0x5/0xfbef5
+Oct 21 19:06:09 fedora kernel:  ? __irq_exit_rcu+0x4c/0xf0
+Oct 21 19:06:09 fedora kernel:  ? entry_SYSCALL_64_after_hwframe+0x76/0x7e
+Oct 21 19:06:09 fedora kernel:  </TASK>
+Oct 21 19:06:09 fedora kernel: OOM killer enabled.
+Oct 21 19:06:09 fedora kernel: Restarting tasks: Starting
+Oct 21 19:06:09 fedora kernel: Restarting tasks: Done
+Oct 21 19:06:09 fedora kernel: random: crng reseeded on system resumption
+Oct 21 19:06:09 fedora abrt-dump-journal-oops[1437]: abrt-dump-journal-oops: Found oopses: 1
+Oct 21 19:06:09 fedora abrt-dump-journal-oops[1437]: abrt-dump-journal-oops: Creating problem directories
+Oct 21 19:06:09 fedora systemd[1]: Cannot stop frozen unit user@0.service - User Manager for UID 0.
+Oct 21 19:06:09 fedora kernel: PM: suspend exit
+Oct 21 19:06:09 fedora kernel: PM: suspend entry (s2idle)
+Oct 21 19:06:09 fedora systemd[1]: Cannot stop frozen unit user-runtime-dir@0.service - User Runtime Directory /run/user/0.
+Oct 21 19:06:09 fedora systemd-logind[1217]: Removed session 4.
+Oct 21 19:06:29 fedora kernel: Filesystems sync: 0.050 seconds
+Oct 21 19:06:29 fedora kernel: Freezing user space processes
+Oct 21 19:06:29 fedora kernel: Freezing user space processes failed after 20.003 seconds (2 tasks refusing to freeze, wq_busy=0):
+Oct 21 19:06:29 fedora kernel: task:(udev-worker)   state:D stack:0     pid:667   tgid:667   ppid:610    task_flags:0x400140 flags:0x00004006
+Oct 21 19:06:29 fedora kernel: Call Trace:
+Oct 21 19:06:29 fedora kernel:  <TASK>
