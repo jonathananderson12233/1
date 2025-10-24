@@ -1,0 +1,113 @@
+#straight hibernate
+Oct 23 21:39:34 cachyos-x8664 systemd-logind[811]: The system will hibernate now!
+Oct 23 21:39:34 cachyos-x8664 asusd[871]: [DEBUG asusd] Doing on_prepare_for_sleep(true)
+Oct 23 21:39:34 cachyos-x8664 NetworkManager[804]: <info>  [1761273574.7157] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Oct 23 21:39:34 cachyos-x8664 NetworkManager[804]: <info>  [1761273574.7158] device (p2p-dev-wlan0): state change: disconnected -> unmanaged (reason 'unmanaged-sleeping', managed-type: 'full')
+Oct 23 21:39:34 cachyos-x8664 NetworkManager[804]: <info>  [1761273574.7160] manager: NetworkManager state is now ASLEEP
+Oct 23 21:39:34 cachyos-x8664 NetworkManager[804]: <info>  [1761273574.7161] device (wlan0): state change: activated -> deactivating (reason 'sleeping', managed-type: 'full')
+Oct 23 21:39:34 cachyos-x8664 vivaldi-stable[1667]: [1662:1751:1023/213934.717255:ERROR:chromium/google_apis/gcm/engine/connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Oct 23 21:39:34 cachyos-x8664 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 23 21:39:34 cachyos-x8664 dbus-broker[802]: A security policy denied :1.36 to send method call /org/freedesktop/login1/seat/seat0:org.freedesktop.login1.Seat.Inhibit to org.freedesktop.login1.
+Oct 23 21:39:34 cachyos-x8664 kwin_wayland[1162]: Failed to delay sleep: Sender is not authorized to send message
+Oct 23 21:39:34 cachyos-x8664 NetworkManager[804]: <info>  [1761273574.7316] audit: op="statistics" interface="wlan0" ifindex=2 args="0" pid=1345 uid=1000 result="success"
+Oct 23 21:39:34 cachyos-x8664 discord[1656]: 21:39:34.731 › [Spotify] WS Disconnected. Next retry in 888ms
+Oct 23 21:39:34 cachyos-x8664 discord[1656]: 21:39:34.732 › [GatewaySocket] Setting connection state to WILL_RECONNECT
+Oct 23 21:39:34 cachyos-x8664 discord[1656]: 21:39:34.732 › [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 2.41 seconds.
+Oct 23 21:39:34 cachyos-x8664 NetworkManager[804]: <info>  [1761273574.7390] audit: op="statistics" interface="wlan0" ifindex=2 args="500" pid=1417 uid=1000 result="success"
+Oct 23 21:39:34 cachyos-x8664 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 23 21:39:34 cachyos-x8664 kernel: wlan0: deauthenticating from e6:55:b8:0e:f3:47 by local choice (Reason: 3=DEAUTH_LEAVING)
+Oct 23 21:39:34 cachyos-x8664 discord[1656]: 21:39:34.754 › [GatewaySocket] Expedited heartbeat requested, but, connection state is WILL_RECONNECT and reconnectImmediately was not requested reason: network detected offline.
+Oct 23 21:39:34 cachyos-x8664 systemd-resolved[533]: Switching to fallback DNS server 9.9.9.9#dns.quad9.net.
+Oct 23 21:39:34 cachyos-x8664 wpa_supplicant[891]: nl80211: send_event_marker failed: Source based routing not supported
+Oct 23 21:39:34 cachyos-x8664 wpa_supplicant[891]: wlan0: CTRL-EVENT-DISCONNECTED bssid=e6:55:b8:0e:f3:47 reason=3 locally_generated=1
+Oct 23 21:39:34 cachyos-x8664 wpa_supplicant[891]: wlan0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 23 21:39:34 cachyos-x8664 NetworkManager[804]: <info>  [1761273574.8762] device (wlan0): state change: deactivating -> disconnected (reason 'sleeping', managed-type: 'full')
+Oct 23 21:39:34 cachyos-x8664 avahi-daemon[805]: Withdrawing address record for fdd5:c840:3713:8dbb:bb64:597f:9b8d:f0b on wlan0.
+Oct 23 21:39:34 cachyos-x8664 avahi-daemon[805]: Leaving mDNS multicast group on interface wlan0.IPv6 with address fdd5:c840:3713:8dbb:bb64:597f:9b8d:f0b.
+Oct 23 21:39:34 cachyos-x8664 NetworkManager[804]: <info>  [1761273574.8764] dhcp4 (wlan0): canceled DHCP transaction
+Oct 23 21:39:34 cachyos-x8664 avahi-daemon[805]: Joining mDNS multicast group on interface wlan0.IPv6 with address fe80::6cfa:f0fa:11b8:2d0d.
+Oct 23 21:39:34 cachyos-x8664 NetworkManager[804]: <info>  [1761273574.8764] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+Oct 23 21:39:34 cachyos-x8664 avahi-daemon[805]: Registering new address record for fe80::6cfa:f0fa:11b8:2d0d on wlan0.*.
+Oct 23 21:39:34 cachyos-x8664 NetworkManager[804]: <info>  [1761273574.8764] dhcp4 (wlan0): state changed no lease
+Oct 23 21:39:34 cachyos-x8664 avahi-daemon[805]: Withdrawing address record for fe80::6cfa:f0fa:11b8:2d0d on wlan0.
+Oct 23 21:39:34 cachyos-x8664 avahi-daemon[805]: Leaving mDNS multicast group on interface wlan0.IPv6 with address fe80::6cfa:f0fa:11b8:2d0d.
+Oct 23 21:39:34 cachyos-x8664 avahi-daemon[805]: Interface wlan0.IPv6 no longer relevant for mDNS.
+Oct 23 21:39:34 cachyos-x8664 wpa_supplicant[891]: wlan0: PMKSA-CACHE-REMOVED e4:55:a8:0e:f4:f7 0
+Oct 23 21:39:34 cachyos-x8664 wpa_supplicant[891]: wlan0: PMKSA-CACHE-REMOVED e6:55:b8:0e:f3:97 0
+Oct 23 21:39:34 cachyos-x8664 wpa_supplicant[891]: wlan0: PMKSA-CACHE-REMOVED e4:55:a8:0e:f3:47 0
+Oct 23 21:39:34 cachyos-x8664 avahi-daemon[805]: Interface wlan0.IPv4 no longer relevant for mDNS.
+Oct 23 21:39:34 cachyos-x8664 avahi-daemon[805]: Leaving mDNS multicast group on interface wlan0.IPv4 with address 10.73.127.175.
+Oct 23 21:39:34 cachyos-x8664 wpa_supplicant[891]: wlan0: PMKSA-CACHE-REMOVED e6:55:b8:0e:f4:5a 0
+Oct 23 21:39:34 cachyos-x8664 wpa_supplicant[891]: wlan0: PMKSA-CACHE-REMOVED e6:55:b8:0e:f4:f7 0
+Oct 23 21:39:34 cachyos-x8664 wpa_supplicant[891]: wlan0: PMKSA-CACHE-REMOVED e4:55:a8:0e:f3:97 0
+Oct 23 21:39:34 cachyos-x8664 wpa_supplicant[891]: wlan0: PMKSA-CACHE-REMOVED e4:55:a8:0e:f4:5a 0
+Oct 23 21:39:34 cachyos-x8664 wpa_supplicant[891]: wlan0: PMKSA-CACHE-REMOVED e6:55:b8:0e:b6:9f 0
+Oct 23 21:39:34 cachyos-x8664 wpa_supplicant[891]: wlan0: PMKSA-CACHE-REMOVED e6:55:b8:0e:f3:47 0
+Oct 23 21:39:34 cachyos-x8664 wpa_supplicant[891]: wlan0: PMKSA-CACHE-REMOVED e4:55:a8:0e:f4:fc 0
+Oct 23 21:39:34 cachyos-x8664 wpa_supplicant[891]: wlan0: PMKSA-CACHE-REMOVED e6:55:b8:0e:f4:44 0
+Oct 23 21:39:34 cachyos-x8664 wpa_supplicant[891]: wlan0: PMKSA-CACHE-REMOVED e6:55:b8:0e:f4:fc 0
+Oct 23 21:39:34 cachyos-x8664 NetworkManager[804]: <info>  [1761273574.8963] device (wlan0): set-hw-addr: set MAC address to DE:E2:1C:78:B7:EC (scanning)
+Oct 23 21:39:34 cachyos-x8664 avahi-daemon[805]: Withdrawing address record for 10.73.127.175 on wlan0.
+Oct 23 21:39:34 cachyos-x8664 avahi-daemon[805]: Joining mDNS multicast group on interface wlan0.IPv4 with address 10.73.127.175.
+Oct 23 21:39:34 cachyos-x8664 avahi-daemon[805]: New relevant interface wlan0.IPv4 for mDNS.
+Oct 23 21:39:34 cachyos-x8664 avahi-daemon[805]: Registering new address record for 10.73.127.175 on wlan0.IPv4.
+Oct 23 21:39:34 cachyos-x8664 avahi-daemon[805]: Withdrawing address record for 10.73.127.175 on wlan0.
+Oct 23 21:39:34 cachyos-x8664 avahi-daemon[805]: Leaving mDNS multicast group on interface wlan0.IPv4 with address 10.73.127.175.
+Oct 23 21:39:34 cachyos-x8664 avahi-daemon[805]: Interface wlan0.IPv4 no longer relevant for mDNS.
+Oct 23 21:39:34 cachyos-x8664 systemd-resolved[533]: wlan0: Bus client reset search domain list.
+Oct 23 21:39:34 cachyos-x8664 systemd-resolved[533]: wlan0: Bus client set default route setting: no
+Oct 23 21:39:34 cachyos-x8664 systemd-resolved[533]: wlan0: Bus client reset DNS server list.
+Oct 23 21:39:34 cachyos-x8664 NetworkManager[804]: <info>  [1761273574.9374] device (wlan0): supplicant interface state: completed -> disconnected
+Oct 23 21:39:34 cachyos-x8664 NetworkManager[804]: <info>  [1761273574.9377] device (wlan0): state change: disconnected -> unmanaged (reason 'unmanaged-sleeping', managed-type: 'full')
+Oct 23 21:39:34 cachyos-x8664 NetworkManager[804]: <info>  [1761273574.9671] device (wlan0): set-hw-addr: reset MAC address to 34:6F:24:7E:9C:0D (unmanage)
+Oct 23 21:39:34 cachyos-x8664 wpa_supplicant[891]: p2p-dev-wlan0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 23 21:39:34 cachyos-x8664 wpa_supplicant[891]: p2p-dev-wlan0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 23 21:39:34 cachyos-x8664 wpa_supplicant[891]: nl80211: deinit ifname=p2p-dev-wlan0 disabled_11b_rates=0
+Oct 23 21:39:34 cachyos-x8664 kscreenlocker_greet[7546]: Could not locate KSvg image set "Nordic" in "plasma/desktoptheme/" using search path QList("/home/jonathana/.local/share", "/usr/local/share", "/usr/share")
+Oct 23 21:39:34 cachyos-x8664 kscreenlocker_greet[7546]: Could not locate plasma theme "Nordic" in plasma/desktoptheme/ using search path QList("/home/jonathana/.local/share", "/usr/local/share", "/usr/share")
+Oct 23 21:39:35 cachyos-x8664 wpa_supplicant[891]: wlan0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 23 21:39:35 cachyos-x8664 wpa_supplicant[891]: wlan0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 23 21:39:35 cachyos-x8664 wpa_supplicant[891]: nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+Oct 23 21:39:35 cachyos-x8664 discord[1656]: 21:39:35.619 › [Spotify] WS Connecting
+Oct 23 21:39:35 cachyos-x8664 systemd-resolved[533]: Switching to fallback DNS server 9.9.9.9#dns.quad9.net.
+Oct 23 21:39:35 cachyos-x8664 discord[1656]: 21:39:35.624 › [Spotify] WS Disconnected. Next retry in 1016ms
+Oct 23 21:39:35 cachyos-x8664 systemd[1]: Reached target Sleep.
+Oct 23 21:39:35 cachyos-x8664 systemd[1]: Starting NVIDIA system hibernate actions...
+Oct 23 21:39:35 cachyos-x8664 hibernate[7584]: nvidia-hibernate.service
+Oct 23 21:39:35 cachyos-x8664 logger[7584]: <13>Oct 23 21:39:35 hibernate: nvidia-hibernate.service
+Oct 23 21:39:35 cachyos-x8664 bluetoothd[806]: Endpoint unregistered: sender=:1.108 path=/MediaEndpoint/A2DPSource/ldac
+Oct 23 21:39:35 cachyos-x8664 bluetoothd[806]: Endpoint unregistered: sender=:1.108 path=/MediaEndpoint/A2DPSink/aptx_hd
+Oct 23 21:39:35 cachyos-x8664 bluetoothd[806]: Endpoint unregistered: sender=:1.108 path=/MediaEndpoint/A2DPSource/aptx_hd
+Oct 23 21:39:35 cachyos-x8664 bluetoothd[806]: Endpoint unregistered: sender=:1.108 path=/MediaEndpoint/A2DPSink/aptx
+Oct 23 21:39:35 cachyos-x8664 bluetoothd[806]: Endpoint unregistered: sender=:1.108 path=/MediaEndpoint/A2DPSource/aptx
+Oct 23 21:39:35 cachyos-x8664 bluetoothd[806]: Endpoint unregistered: sender=:1.108 path=/MediaEndpoint/A2DPSink/aac
+Oct 23 21:39:35 cachyos-x8664 bluetoothd[806]: Endpoint unregistered: sender=:1.108 path=/MediaEndpoint/A2DPSource/aac
+Oct 23 21:39:35 cachyos-x8664 bluetoothd[806]: Endpoint unregistered: sender=:1.108 path=/MediaEndpoint/A2DPSink/opus_g
+Oct 23 21:39:35 cachyos-x8664 bluetoothd[806]: Endpoint unregistered: sender=:1.108 path=/MediaEndpoint/A2DPSource/opus_g
+Oct 23 21:39:35 cachyos-x8664 bluetoothd[806]: Endpoint unregistered: sender=:1.108 path=/MediaEndpoint/A2DPSink/sbc
+Oct 23 21:39:35 cachyos-x8664 bluetoothd[806]: Endpoint unregistered: sender=:1.108 path=/MediaEndpoint/A2DPSource/sbc
+Oct 23 21:39:35 cachyos-x8664 bluetoothd[806]: Endpoint unregistered: sender=:1.108 path=/MediaEndpoint/A2DPSource/aptx_ll_1
+Oct 23 21:39:35 cachyos-x8664 bluetoothd[806]: Endpoint unregistered: sender=:1.108 path=/MediaEndpoint/A2DPSource/aptx_ll_0
+Oct 23 21:39:35 cachyos-x8664 bluetoothd[806]: Endpoint unregistered: sender=:1.108 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_1
+Oct 23 21:39:35 cachyos-x8664 bluetoothd[806]: Endpoint unregistered: sender=:1.108 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_0
+Oct 23 21:39:35 cachyos-x8664 bluetoothd[806]: Endpoint unregistered: sender=:1.108 path=/MediaEndpoint/A2DPSource/faststream
+Oct 23 21:39:35 cachyos-x8664 bluetoothd[806]: Endpoint unregistered: sender=:1.108 path=/MediaEndpoint/A2DPSource/faststream_duplex
+Oct 23 21:39:35 cachyos-x8664 bluetoothd[806]: Endpoint unregistered: sender=:1.108 path=/MediaEndpoint/A2DPSink/opus_05
+Oct 23 21:39:35 cachyos-x8664 bluetoothd[806]: Endpoint unregistered: sender=:1.108 path=/MediaEndpoint/A2DPSource/opus_05
+Oct 23 21:39:35 cachyos-x8664 bluetoothd[806]: Endpoint unregistered: sender=:1.108 path=/MediaEndpoint/A2DPSink/opus_05_duplex
+Oct 23 21:39:35 cachyos-x8664 bluetoothd[806]: Endpoint unregistered: sender=:1.108 path=/MediaEndpoint/A2DPSource/opus_05_duplex
+Oct 23 21:39:36 cachyos-x8664 discord[1656]: 21:39:36.639 › [Spotify] WS Connecting
+Oct 23 21:39:36 cachyos-x8664 discord[1656]: 21:39:36.643 › [Spotify] WS Disconnected. Next retry in 2510ms
+Oct 23 21:39:37 cachyos-x8664 discord[1656]: 21:39:37.143 › [GatewaySocket] Setting connection state to CONNECTING
+Oct 23 21:39:37 cachyos-x8664 discord[1656]: 21:39:37.144 › [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+Oct 23 21:39:37 cachyos-x8664 discord[1656]: 21:39:37.146 › [GatewaySocket] Setting connection state to WILL_RECONNECT
+Oct 23 21:39:37 cachyos-x8664 discord[1656]: 21:39:37.146 › [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 5.98 seconds.
+Oct 23 21:39:37 cachyos-x8664 systemd[1]: nvidia-hibernate.service: Deactivated successfully.
+Oct 23 21:39:37 cachyos-x8664 systemd[1]: Finished NVIDIA system hibernate actions.
+Oct 23 21:39:37 cachyos-x8664 systemd[1]: nvidia-hibernate.service: Consumed 2.119s CPU time, 1.3G memory peak.
+Oct 23 21:39:37 cachyos-x8664 systemd[1]: Starting System Hibernate...
+Oct 23 21:39:37 cachyos-x8664 systemd-sleep[7638]: User sessions remain unfrozen on explicit request ($SYSTEMD_SLEEP_FREEZE_USER_SESSIONS=0).
+Oct 23 21:39:37 cachyos-x8664 systemd-sleep[7638]: This is not recommended, and might result in unexpected behavior, particularly
+Oct 23 21:39:37 cachyos-x8664 systemd-sleep[7638]: in suspend-then-hibernate operations or setups with encrypted home directories.
+Oct 23 21:39:37 cachyos-x8664 systemd-sleep[7638]: Performing sleep operation 'hibernate'...
+Oct 23 21:39:37 cachyos-x8664 kernel: PM: hibernation: hibernation entry
