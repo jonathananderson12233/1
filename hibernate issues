@@ -111,3 +111,512 @@ Oct 23 21:39:37 cachyos-x8664 systemd-sleep[7638]: This is not recommended, and 
 Oct 23 21:39:37 cachyos-x8664 systemd-sleep[7638]: in suspend-then-hibernate operations or setups with encrypted home directories.
 Oct 23 21:39:37 cachyos-x8664 systemd-sleep[7638]: Performing sleep operation 'hibernate'...
 Oct 23 21:39:37 cachyos-x8664 kernel: PM: hibernation: hibernation entry
+
+
+
+#sleep-then-hibernate
+Oct 23 21:45:59 cachyos-x8664 systemd-logind[788]: The system will suspend and later hibernate now!
+Oct 23 21:45:59 cachyos-x8664 asusd[848]: [DEBUG asusd] Doing on_prepare_for_sleep(true)
+Oct 23 21:45:59 cachyos-x8664 NetworkManager[781]: <info>  [1761273959.1102] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Oct 23 21:45:59 cachyos-x8664 NetworkManager[781]: <info>  [1761273959.1103] device (p2p-dev-wlan0): state change: disconnected -> unmanaged (reason 'unmanaged-sleeping', managed-type: 'full')
+Oct 23 21:45:59 cachyos-x8664 NetworkManager[781]: <info>  [1761273959.1106] manager: NetworkManager state is now ASLEEP
+Oct 23 21:45:59 cachyos-x8664 NetworkManager[781]: <info>  [1761273959.1107] device (wlan0): state change: activated -> deactivating (reason 'sleeping', managed-type: 'full')
+Oct 23 21:45:59 cachyos-x8664 vivaldi-stable[1643]: [1638:1722:1023/214559.111308:ERROR:chromium/google_apis/gcm/engine/connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Oct 23 21:45:59 cachyos-x8664 discord[1633]: 21:45:59.112 › [Spotify] WS Disconnected. Next retry in 1478ms
+Oct 23 21:45:59 cachyos-x8664 dbus-broker[779]: A security policy denied :1.36 to send method call /org/freedesktop/login1/seat/seat0:org.freedesktop.login1.Seat.Inhibit to org.freedesktop.login1.
+Oct 23 21:45:59 cachyos-x8664 kwin_wayland[1142]: Failed to delay sleep: Sender is not authorized to send message
+Oct 23 21:45:59 cachyos-x8664 discord[1633]: 21:45:59.113 › [GatewaySocket] Setting connection state to WILL_RECONNECT
+Oct 23 21:45:59 cachyos-x8664 discord[1633]: 21:45:59.113 › [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.35 seconds.
+Oct 23 21:45:59 cachyos-x8664 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 23 21:45:59 cachyos-x8664 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 23 21:45:59 cachyos-x8664 polkitd[911]: Unregistered Authentication Agent for unix-process:unknown (system bus name :1.110, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected fr>
+Oct 23 21:45:59 cachyos-x8664 kernel: wlan0: deauthenticating from e6:55:b8:0e:f3:47 by local choice (Reason: 3=DEAUTH_LEAVING)
+Oct 23 21:45:59 cachyos-x8664 NetworkManager[781]: <info>  [1761273959.1379] audit: op="statistics" interface="wlan0" ifindex=2 args="0" pid=1326 uid=1000 result="success"
+Oct 23 21:45:59 cachyos-x8664 NetworkManager[781]: <info>  [1761273959.1525] audit: op="statistics" interface="wlan0" ifindex=2 args="500" pid=1395 uid=1000 result="success"
+Oct 23 21:45:59 cachyos-x8664 discord[1633]: 21:45:59.152 › [GatewaySocket] Expedited heartbeat requested, but, connection state is WILL_RECONNECT and reconnectImmediately was not requested reason: network detected offline.
+Oct 23 21:45:59 cachyos-x8664 wpa_supplicant[868]: nl80211: send_event_marker failed: Source based routing not supported
+Oct 23 21:45:59 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-DISCONNECTED bssid=e6:55:b8:0e:f3:47 reason=3 locally_generated=1
+Oct 23 21:45:59 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 23 21:45:59 cachyos-x8664 NetworkManager[781]: <info>  [1761273959.2374] device (wlan0): supplicant interface state: completed -> disconnected
+Oct 23 21:45:59 cachyos-x8664 NetworkManager[781]: <info>  [1761273959.2375] device (wlan0): state change: deactivating -> disconnected (reason 'sleeping', managed-type: 'full')
+Oct 23 21:45:59 cachyos-x8664 avahi-daemon[782]: Withdrawing address record for fe80::6cfa:f0fa:11b8:2d0d on wlan0.
+Oct 23 21:45:59 cachyos-x8664 avahi-daemon[782]: Leaving mDNS multicast group on interface wlan0.IPv6 with address fe80::6cfa:f0fa:11b8:2d0d.
+Oct 23 21:45:59 cachyos-x8664 NetworkManager[781]: <info>  [1761273959.2377] dhcp4 (wlan0): canceled DHCP transaction
+Oct 23 21:45:59 cachyos-x8664 avahi-daemon[782]: Interface wlan0.IPv6 no longer relevant for mDNS.
+Oct 23 21:45:59 cachyos-x8664 NetworkManager[781]: <info>  [1761273959.2377] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+Oct 23 21:45:59 cachyos-x8664 wpa_supplicant[868]: wlan0: PMKSA-CACHE-REMOVED e6:55:b8:0e:f3:97 0
+Oct 23 21:45:59 cachyos-x8664 NetworkManager[781]: <info>  [1761273959.2378] dhcp4 (wlan0): state changed no lease
+Oct 23 21:45:59 cachyos-x8664 avahi-daemon[782]: Interface wlan0.IPv4 no longer relevant for mDNS.
+Oct 23 21:45:59 cachyos-x8664 avahi-daemon[782]: Leaving mDNS multicast group on interface wlan0.IPv4 with address 10.73.127.175.
+Oct 23 21:45:59 cachyos-x8664 wpa_supplicant[868]: wlan0: PMKSA-CACHE-REMOVED e6:55:b8:0e:f4:5a 0
+Oct 23 21:45:59 cachyos-x8664 wpa_supplicant[868]: wlan0: PMKSA-CACHE-REMOVED e4:55:a8:0e:f4:f7 0
+Oct 23 21:45:59 cachyos-x8664 wpa_supplicant[868]: wlan0: PMKSA-CACHE-REMOVED e6:55:b8:0e:f4:f7 0
+Oct 23 21:45:59 cachyos-x8664 wpa_supplicant[868]: wlan0: PMKSA-CACHE-REMOVED e4:55:a8:0e:f4:5a 0
+Oct 23 21:45:59 cachyos-x8664 wpa_supplicant[868]: wlan0: PMKSA-CACHE-REMOVED e4:55:a8:0e:f4:fc 0
+Oct 23 21:45:59 cachyos-x8664 wpa_supplicant[868]: wlan0: PMKSA-CACHE-REMOVED e6:55:b8:0e:f4:fc 0
+Oct 23 21:45:59 cachyos-x8664 wpa_supplicant[868]: wlan0: PMKSA-CACHE-REMOVED e6:55:b8:0e:f4:44 0
+Oct 23 21:45:59 cachyos-x8664 wpa_supplicant[868]: wlan0: PMKSA-CACHE-REMOVED e6:55:b8:0e:f3:47 0
+Oct 23 21:45:59 cachyos-x8664 wpa_supplicant[868]: wlan0: PMKSA-CACHE-REMOVED e4:55:a8:0e:f3:47 0
+Oct 23 21:45:59 cachyos-x8664 wpa_supplicant[868]: wlan0: PMKSA-CACHE-REMOVED e4:55:a8:0e:f3:97 0
+Oct 23 21:45:59 cachyos-x8664 NetworkManager[781]: <info>  [1761273959.2585] device (wlan0): set-hw-addr: set MAC address to EE:3A:9E:60:04:03 (scanning)
+Oct 23 21:45:59 cachyos-x8664 avahi-daemon[782]: Withdrawing address record for 10.73.127.175 on wlan0.
+Oct 23 21:45:59 cachyos-x8664 avahi-daemon[782]: Joining mDNS multicast group on interface wlan0.IPv4 with address 10.73.127.175.
+Oct 23 21:45:59 cachyos-x8664 avahi-daemon[782]: New relevant interface wlan0.IPv4 for mDNS.
+Oct 23 21:45:59 cachyos-x8664 avahi-daemon[782]: Registering new address record for 10.73.127.175 on wlan0.IPv4.
+Oct 23 21:45:59 cachyos-x8664 avahi-daemon[782]: Withdrawing address record for 10.73.127.175 on wlan0.
+Oct 23 21:45:59 cachyos-x8664 avahi-daemon[782]: Leaving mDNS multicast group on interface wlan0.IPv4 with address 10.73.127.175.
+Oct 23 21:45:59 cachyos-x8664 avahi-daemon[782]: Interface wlan0.IPv4 no longer relevant for mDNS.
+Oct 23 21:45:59 cachyos-x8664 systemd-resolved[510]: Switching to fallback DNS server 9.9.9.9#dns.quad9.net.
+Oct 23 21:45:59 cachyos-x8664 systemd-resolved[510]: wlan0: Bus client reset search domain list.
+Oct 23 21:45:59 cachyos-x8664 systemd-resolved[510]: wlan0: Bus client set default route setting: no
+Oct 23 21:45:59 cachyos-x8664 systemd-resolved[510]: wlan0: Bus client reset DNS server list.
+Oct 23 21:45:59 cachyos-x8664 NetworkManager[781]: <info>  [1761273959.2997] device (wlan0): state change: disconnected -> unmanaged (reason 'unmanaged-sleeping', managed-type: 'full')
+Oct 23 21:45:59 cachyos-x8664 NetworkManager[781]: <info>  [1761273959.3334] device (wlan0): set-hw-addr: reset MAC address to 34:6F:24:7E:9C:0D (unmanage)
+Oct 23 21:45:59 cachyos-x8664 kscreenlocker_greet[4352]: Could not locate KSvg image set "Nordic" in "plasma/desktoptheme/" using search path QList("/home/jonathana/.local/share", "/usr/local/share", "/usr/share")
+Oct 23 21:45:59 cachyos-x8664 kscreenlocker_greet[4352]: Could not locate plasma theme "Nordic" in plasma/desktoptheme/ using search path QList("/home/jonathana/.local/share", "/usr/local/share", "/usr/share")
+Oct 23 21:45:59 cachyos-x8664 wpa_supplicant[868]: p2p-dev-wlan0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 23 21:45:59 cachyos-x8664 wpa_supplicant[868]: p2p-dev-wlan0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 23 21:45:59 cachyos-x8664 wpa_supplicant[868]: nl80211: deinit ifname=p2p-dev-wlan0 disabled_11b_rates=0
+Oct 23 21:45:59 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 23 21:45:59 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 23 21:45:59 cachyos-x8664 wpa_supplicant[868]: nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+Oct 23 21:45:59 cachyos-x8664 systemd[1]: Reached target Sleep.
+Oct 23 21:45:59 cachyos-x8664 systemd[1]: Starting System Suspend then Hibernate...
+Oct 23 21:45:59 cachyos-x8664 systemd-sleep[4411]: User sessions remain unfrozen on explicit request ($SYSTEMD_SLEEP_FREEZE_USER_SESSIONS=0).
+Oct 23 21:45:59 cachyos-x8664 systemd-sleep[4411]: This is not recommended, and might result in unexpected behavior, particularly
+Oct 23 21:45:59 cachyos-x8664 systemd-sleep[4411]: in suspend-then-hibernate operations or setups with encrypted home directories.
+Oct 23 21:45:59 cachyos-x8664 systemd-sleep[4411]: Performing sleep operation 'suspend'...
+Oct 23 21:45:59 cachyos-x8664 kernel: PM: suspend entry (s2idle)
+Oct 23 21:45:59 cachyos-x8664 kernel: Filesystems sync: 0.028 seconds
+Oct 23 21:45:59 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.41 path=/MediaEndpoint/A2DPSource/ldac
+Oct 23 21:45:59 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.41 path=/MediaEndpoint/A2DPSink/aptx_hd
+Oct 23 21:45:59 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.41 path=/MediaEndpoint/A2DPSource/aptx_hd
+Oct 23 21:45:59 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.41 path=/MediaEndpoint/A2DPSink/aptx
+Oct 23 21:45:59 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.41 path=/MediaEndpoint/A2DPSource/aptx
+Oct 23 21:45:59 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.41 path=/MediaEndpoint/A2DPSink/aac
+Oct 23 21:45:59 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.41 path=/MediaEndpoint/A2DPSource/aac
+Oct 23 21:45:59 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.41 path=/MediaEndpoint/A2DPSink/opus_g
+Oct 23 21:45:59 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.41 path=/MediaEndpoint/A2DPSource/opus_g
+Oct 23 21:45:59 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.41 path=/MediaEndpoint/A2DPSink/sbc
+Oct 23 21:45:59 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.41 path=/MediaEndpoint/A2DPSource/sbc
+Oct 23 21:45:59 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.41 path=/MediaEndpoint/A2DPSource/aptx_ll_1
+Oct 23 21:45:59 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.41 path=/MediaEndpoint/A2DPSource/aptx_ll_0
+Oct 23 21:45:59 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.41 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_1
+Oct 23 21:45:59 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.41 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_0
+Oct 23 21:45:59 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.41 path=/MediaEndpoint/A2DPSource/faststream
+Oct 23 21:45:59 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.41 path=/MediaEndpoint/A2DPSource/faststream_duplex
+Oct 23 21:45:59 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.41 path=/MediaEndpoint/A2DPSink/opus_05
+Oct 23 21:45:59 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.41 path=/MediaEndpoint/A2DPSource/opus_05
+Oct 23 21:45:59 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.41 path=/MediaEndpoint/A2DPSink/opus_05_duplex
+Oct 23 21:45:59 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.41 path=/MediaEndpoint/A2DPSource/opus_05_duplex
+Oct 23 21:46:00 cachyos-x8664 kernel: Freezing user space processes
+Oct 23 21:46:00 cachyos-x8664 kernel: Freezing user space processes completed (elapsed 0.001 seconds)
+Oct 23 21:46:00 cachyos-x8664 kernel: OOM killer disabled.
+Oct 23 21:46:00 cachyos-x8664 kernel: Freezing remaining freezable tasks
+Oct 23 21:46:00 cachyos-x8664 kernel: Freezing remaining freezable tasks completed (elapsed 0.001 seconds)
+Oct 23 21:46:00 cachyos-x8664 kernel: printk: Suspending console(s) (use no_console_suspend to debug)
+Oct 23 21:46:00 cachyos-x8664 kernel: NVRM: GPU 0000:01:00.0: PreserveVideoMemoryAllocations module parameter is set. System Power Management attempted without driver procfs suspend interface. Please refer to the 'Configuring>
+Oct 23 21:46:00 cachyos-x8664 kernel: nvidia 0000:01:00.0: PM: pci_pm_suspend(): nv_pmops_suspend [nvidia] returns -5
+Oct 23 21:46:00 cachyos-x8664 kernel: nvidia 0000:01:00.0: PM: dpm_run_callback(): pci_pm_suspend.llvm.3481709774945393243 returns -5
+Oct 23 21:46:00 cachyos-x8664 kernel: nvidia 0000:01:00.0: PM: failed to suspend async: error -5
+Oct 23 21:46:00 cachyos-x8664 kernel: queueing ieee80211 work while going to suspend
+Oct 23 21:46:00 cachyos-x8664 kernel: PM: Some devices failed to suspend, or early wake event detected
+Oct 23 21:46:00 cachyos-x8664 kernel: nvme nvme0: 8/0/0 default/read/poll queues
+Oct 23 21:46:00 cachyos-x8664 kernel: OOM killer enabled.
+Oct 23 21:46:00 cachyos-x8664 kernel: Restarting tasks: Starting
+Oct 23 21:46:00 cachyos-x8664 kernel: Restarting tasks: Done
+Oct 23 21:46:00 cachyos-x8664 kernel: random: crng reseeded on system resumption
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Controller resume with wake event 0x0
+Oct 23 21:46:00 cachyos-x8664 kernel: PM: suspend exit
+Oct 23 21:46:00 cachyos-x8664 kernel: PM: suspend entry (s2idle)
+Oct 23 21:46:00 cachyos-x8664 wireplumber[1186]: spa.bluez5.midi: org.bluez.GattManager1.RegisterApplication() failed: GDBus.Error:org.bluez.Error.AlreadyExists: Already Exists
+Oct 23 21:46:00 cachyos-x8664 kernel: Filesystems sync: 0.076 seconds
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.115 path=/MediaEndpoint/A2DPSource/ldac
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.115 path=/MediaEndpoint/A2DPSink/aptx_hd
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.115 path=/MediaEndpoint/A2DPSource/aptx_hd
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.115 path=/MediaEndpoint/A2DPSink/aptx
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.115 path=/MediaEndpoint/A2DPSource/aptx
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.115 path=/MediaEndpoint/A2DPSink/aac
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.115 path=/MediaEndpoint/A2DPSource/aac
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.115 path=/MediaEndpoint/A2DPSink/opus_g
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.115 path=/MediaEndpoint/A2DPSource/opus_g
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.115 path=/MediaEndpoint/A2DPSink/sbc
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.115 path=/MediaEndpoint/A2DPSource/sbc
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.115 path=/MediaEndpoint/A2DPSource/aptx_ll_1
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.115 path=/MediaEndpoint/A2DPSource/aptx_ll_0
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.115 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_1
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.115 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_0
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.115 path=/MediaEndpoint/A2DPSource/faststream
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.115 path=/MediaEndpoint/A2DPSource/faststream_duplex
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.115 path=/MediaEndpoint/A2DPSink/opus_05
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.115 path=/MediaEndpoint/A2DPSource/opus_05
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.115 path=/MediaEndpoint/A2DPSink/opus_05_duplex
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.115 path=/MediaEndpoint/A2DPSource/opus_05_duplex
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.115 path=/MediaEndpoint/A2DPSource/ldac
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.115 path=/MediaEndpoint/A2DPSink/aptx_hd
+Oct 23 21:46:00 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.115 path=/MediaEndpoint/A2DPSource/aptx_hd
+Oct 23 21:46:01 cachyos-x8664 kernel: Freezing user space processes
+Oct 23 21:46:01 cachyos-x8664 kernel: Freezing user space processes completed (elapsed 0.001 seconds)
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.115 path=/MediaEndpoint/A2DPSink/aptx
+Oct 23 21:46:01 cachyos-x8664 kernel: OOM killer disabled.
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.115 path=/MediaEndpoint/A2DPSource/aptx
+Oct 23 21:46:01 cachyos-x8664 kernel: Freezing remaining freezable tasks
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.115 path=/MediaEndpoint/A2DPSink/aac
+Oct 23 21:46:01 cachyos-x8664 kernel: Freezing remaining freezable tasks completed (elapsed 0.001 seconds)
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.115 path=/MediaEndpoint/A2DPSource/aac
+Oct 23 21:46:01 cachyos-x8664 kernel: printk: Suspending console(s) (use no_console_suspend to debug)
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.115 path=/MediaEndpoint/A2DPSink/opus_g
+Oct 23 21:46:01 cachyos-x8664 kernel: NVRM: GPU 0000:01:00.0: PreserveVideoMemoryAllocations module parameter is set. System Power Management attempted without driver procfs suspend interface. Please refer to the 'Configuring>
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.115 path=/MediaEndpoint/A2DPSource/opus_g
+Oct 23 21:46:01 cachyos-x8664 kernel: nvidia 0000:01:00.0: PM: pci_pm_suspend(): nv_pmops_suspend [nvidia] returns -5
+Oct 23 21:46:01 cachyos-x8664 kernel: nvidia 0000:01:00.0: PM: dpm_run_callback(): pci_pm_suspend.llvm.3481709774945393243 returns -5
+Oct 23 21:46:01 cachyos-x8664 kernel: nvidia 0000:01:00.0: PM: failed to suspend async: error -5
+Oct 23 21:46:01 cachyos-x8664 kernel: queueing ieee80211 work while going to suspend
+Oct 23 21:46:01 cachyos-x8664 kernel: PM: Some devices failed to suspend, or early wake event detected
+Oct 23 21:46:01 cachyos-x8664 kernel: nvme nvme0: 8/0/0 default/read/poll queues
+Oct 23 21:46:01 cachyos-x8664 kernel: OOM killer enabled.
+Oct 23 21:46:01 cachyos-x8664 discord[1633]: 21:46:01.087 › [GatewaySocket] Setting connection state to CONNECTING
+Oct 23 21:46:01 cachyos-x8664 discord[1633]: 21:46:01.088 › [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.115 path=/MediaEndpoint/A2DPSink/sbc
+Oct 23 21:46:01 cachyos-x8664 kernel: Restarting tasks: Starting
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.115 path=/MediaEndpoint/A2DPSource/sbc
+Oct 23 21:46:01 cachyos-x8664 kernel: Restarting tasks: Done
+Oct 23 21:46:01 cachyos-x8664 discord[1633]: 21:46:01.088 › [Spotify] WS Connecting
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.115 path=/MediaEndpoint/A2DPSource/aptx_ll_1
+Oct 23 21:46:01 cachyos-x8664 kernel: random: crng reseeded on system resumption
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.115 path=/MediaEndpoint/A2DPSource/aptx_ll_0
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.115 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_1
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.115 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_0
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.115 path=/MediaEndpoint/A2DPSource/faststream
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.115 path=/MediaEndpoint/A2DPSource/faststream_duplex
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.115 path=/MediaEndpoint/A2DPSink/opus_05
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.115 path=/MediaEndpoint/A2DPSource/opus_05
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.115 path=/MediaEndpoint/A2DPSink/opus_05_duplex
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint unregistered: sender=:1.115 path=/MediaEndpoint/A2DPSource/opus_05_duplex
+Oct 23 21:46:01 cachyos-x8664 systemd-resolved[510]: Switching to fallback DNS server 9.9.9.9#dns.quad9.net.
+Oct 23 21:46:01 cachyos-x8664 discord[1633]: 21:46:01.093 › [GatewaySocket] Setting connection state to WILL_RECONNECT
+Oct 23 21:46:01 cachyos-x8664 discord[1633]: 21:46:01.093 › [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.40 seconds.
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Controller resume with wake event 0x0
+Oct 23 21:46:01 cachyos-x8664 systemd-sleep[4411]: Failed to put system to sleep. System resumed again: Input/output error
+Oct 23 21:46:01 cachyos-x8664 kernel: PM: suspend exit
+Oct 23 21:46:01 cachyos-x8664 discord[1633]: 21:46:01.099 › [Spotify] WS Disconnected. Next retry in 2316ms
+Oct 23 21:46:01 cachyos-x8664 systemd[1]: systemd-suspend-then-hibernate.service: Main process exited, code=exited, status=1/FAILURE
+Oct 23 21:46:01 cachyos-x8664 systemd[1]: systemd-suspend-then-hibernate.service: Failed with result 'exit-code'.
+Oct 23 21:46:01 cachyos-x8664 systemd[1]: Failed to start System Suspend then Hibernate.
+Oct 23 21:46:01 cachyos-x8664 systemd[1]: Dependency failed for Suspend; Hibernate if not used for a period of time.
+Oct 23 21:46:01 cachyos-x8664 systemd[1]: suspend-then-hibernate.target: Job suspend-then-hibernate.target/start failed with result 'dependency'.
+Oct 23 21:46:01 cachyos-x8664 systemd[1]: Stopped target Sleep.
+Oct 23 21:46:01 cachyos-x8664 systemd[1]: Starting NVIDIA system resume actions...
+Oct 23 21:46:01 cachyos-x8664 suspend[4502]: nvidia-resume.service
+Oct 23 21:46:01 cachyos-x8664 logger[4502]: <13>Oct 23 21:46:01 suspend: nvidia-resume.service
+Oct 23 21:46:01 cachyos-x8664 systemd[1]: nvidia-resume.service: Deactivated successfully.
+Oct 23 21:46:01 cachyos-x8664 systemd[1]: Finished NVIDIA system resume actions.
+Oct 23 21:46:01 cachyos-x8664 systemd-logind[788]: Operation 'suspend-then-hibernate' finished.
+Oct 23 21:46:01 cachyos-x8664 systemd-resolved[510]: Closing all remaining TCP connections.
+Oct 23 21:46:01 cachyos-x8664 asusd[848]: [DEBUG asusd] Doing on_prepare_for_sleep(false)
+Oct 23 21:46:01 cachyos-x8664 systemd-resolved[510]: Resetting learnt feature levels on all servers.
+Oct 23 21:46:01 cachyos-x8664 NetworkManager[781]: <info>  [1761273961.1573] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+Oct 23 21:46:01 cachyos-x8664 NetworkManager[781]: <info>  [1761273961.1574] device (wlan0): state change: unmanaged -> unavailable (reason 'managed', managed-type: 'external')
+Oct 23 21:46:01 cachyos-x8664 discord[1633]: 21:46:01.159 › [GatewaySocket] Connection has reset backoff for reason: power monitor resumed
+Oct 23 21:46:01 cachyos-x8664 discord[1633]: 21:46:01.160 › [GatewaySocket] Setting connection state to CONNECTING
+Oct 23 21:46:01 cachyos-x8664 discord[1633]: 21:46:01.160 › [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+Oct 23 21:46:01 cachyos-x8664 wireplumber[1186]: spa.bluez5.midi: org.bluez.GattManager1.RegisterApplication() failed: GDBus.Error:org.bluez.Error.AlreadyExists: Already Exists
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.116 path=/MediaEndpoint/A2DPSource/ldac
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.116 path=/MediaEndpoint/A2DPSink/aptx_hd
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.116 path=/MediaEndpoint/A2DPSource/aptx_hd
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.116 path=/MediaEndpoint/A2DPSink/aptx
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.116 path=/MediaEndpoint/A2DPSource/aptx
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.116 path=/MediaEndpoint/A2DPSink/aac
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.116 path=/MediaEndpoint/A2DPSource/aac
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.116 path=/MediaEndpoint/A2DPSink/opus_g
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.116 path=/MediaEndpoint/A2DPSource/opus_g
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.116 path=/MediaEndpoint/A2DPSink/sbc
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.116 path=/MediaEndpoint/A2DPSource/sbc
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.116 path=/MediaEndpoint/A2DPSource/aptx_ll_1
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.116 path=/MediaEndpoint/A2DPSource/aptx_ll_0
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.116 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_1
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.116 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_0
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.116 path=/MediaEndpoint/A2DPSource/faststream
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.116 path=/MediaEndpoint/A2DPSource/faststream_duplex
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.116 path=/MediaEndpoint/A2DPSink/opus_05
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.116 path=/MediaEndpoint/A2DPSource/opus_05
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.116 path=/MediaEndpoint/A2DPSink/opus_05_duplex
+Oct 23 21:46:01 cachyos-x8664 bluetoothd[783]: Endpoint registered: sender=:1.116 path=/MediaEndpoint/A2DPSource/opus_05_duplex
+Oct 23 21:46:01 cachyos-x8664 kdeconnectd[1494]: Error sending UDP packet: QAbstractSocket::NetworkError
+Oct 23 21:46:01 cachyos-x8664 kdeconnectd[1494]: Failed to open any MDNS client sockets
+Oct 23 21:46:01 cachyos-x8664 kdeconnectd[1494]: Failed to open any MDNS server sockets
+Oct 23 21:46:01 cachyos-x8664 discord[1633]: 21:46:01.167 › [GatewaySocket] Connection has reset backoff for reason: power monitor resumed
+Oct 23 21:46:01 cachyos-x8664 NetworkManager[781]: <info>  [1761273961.1678] device (p2p-dev-wlan0): state change: unmanaged -> unavailable (reason 'managed', managed-type: 'external')
+Oct 23 21:46:01 cachyos-x8664 discord[1633]: 21:46:01.167 › [GatewaySocket] Setting connection state to WILL_RECONNECT
+Oct 23 21:46:01 cachyos-x8664 discord[1633]: 21:46:01.167 › [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
+Oct 23 21:46:01 cachyos-x8664 NetworkManager[781]: <info>  [1761273961.1680] manager: NetworkManager state is now DISCONNECTED
+Oct 23 21:46:01 cachyos-x8664 discord[1633]: 21:46:01.168 › [GatewaySocket] Setting connection state to CONNECTING
+Oct 23 21:46:01 cachyos-x8664 discord[1633]: 21:46:01.168 › [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+Oct 23 21:46:01 cachyos-x8664 discord[1633]: 21:46:01.169 › [GatewaySocket] Setting connection state to WILL_RECONNECT
+Oct 23 21:46:01 cachyos-x8664 discord[1633]: 21:46:01.170 › [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.61 seconds.
+Oct 23 21:46:01 cachyos-x8664 NetworkManager[781]: <info>  [1761273961.1845] device (wlan0): supplicant interface state: internal-starting -> disconnected
+Oct 23 21:46:01 cachyos-x8664 NetworkManager[781]: <info>  [1761273961.1845] device (p2p-dev-wlan0): state change: unavailable -> unmanaged (reason 'unmanaged-link-not-init', managed-type: 'removed')
+Oct 23 21:46:01 cachyos-x8664 NetworkManager[781]: <info>  [1761273961.1848] Wi-Fi P2P device controlled by interface wlan0 created
+Oct 23 21:46:01 cachyos-x8664 NetworkManager[781]: <info>  [1761273961.1850] manager: (p2p-dev-wlan0): new 802.11 Wi-Fi P2P device (/org/freedesktop/NetworkManager/Devices/4)
+Oct 23 21:46:01 cachyos-x8664 NetworkManager[781]: <info>  [1761273961.1851] device (p2p-dev-wlan0): state change: unmanaged -> unavailable (reason 'managed', managed-type: 'external')
+Oct 23 21:46:01 cachyos-x8664 NetworkManager[781]: <info>  [1761273961.1855] device (wlan0): state change: unavailable -> disconnected (reason 'supplicant-available', managed-type: 'full')
+Oct 23 21:46:01 cachyos-x8664 NetworkManager[781]: <info>  [1761273961.1857] device (p2p-dev-wlan0): state change: unavailable -> disconnected (reason 'none', managed-type: 'full')
+Oct 23 21:46:01 cachyos-x8664 kwin_wayland_wrapper[1257]: Key repeat discarded, Wayland compositor doesn't seem to be processing events fast enough!
+Oct 23 21:46:01 cachyos-x8664 kwin_wayland_wrapper[1257]: Key repeat discarded, Wayland compositor doesn't seem to be processing events fast enough!
+Oct 23 21:46:01 cachyos-x8664 kwin_wayland_wrapper[1257]: Key repeat discarded, Wayland compositor doesn't seem to be processing events fast enough!
+Oct 23 21:46:02 cachyos-x8664 discord[1633]: 21:46:02.775 › [GatewaySocket] Setting connection state to CONNECTING
+Oct 23 21:46:02 cachyos-x8664 discord[1633]: 21:46:02.775 › [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+Oct 23 21:46:02 cachyos-x8664 discord[1633]: 21:46:02.778 › [GatewaySocket] Setting connection state to WILL_RECONNECT
+Oct 23 21:46:02 cachyos-x8664 discord[1633]: 21:46:02.779 › [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.30 seconds.
+Oct 23 21:46:03 cachyos-x8664 discord[1633]: 21:46:03.415 › [Spotify] WS Connecting
+Oct 23 21:46:03 cachyos-x8664 discord[1633]: 21:46:03.422 › [Spotify] WS Disconnected. Next retry in 15145ms
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5413] policy: auto-activating connection 'Bethel' (b137bd7a-6cac-493e-a2b2-34386665b7b9)
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5415] device (wlan0): Activation: starting connection 'Bethel' (b137bd7a-6cac-493e-a2b2-34386665b7b9)
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5418] device (wlan0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5419] manager: NetworkManager state is now CONNECTING
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5420] device (wlan0): state change: prepare -> config (reason 'none', managed-type: 'full')
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5421] device (wlan0): Activation: (wifi) access point 'Bethel' has security, but secrets are required.
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5421] device (wlan0): state change: config -> need-auth (reason 'none', managed-type: 'full')
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5427] device (wlan0): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5427] device (wlan0): state change: prepare -> config (reason 'none', managed-type: 'full')
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5428] device (wlan0): Activation: (wifi) connection 'Bethel' has security, and secrets exist.  No new secrets needed.
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5428] Config: added 'ssid' value 'Bethel'
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5429] Config: added 'scan_ssid' value '1'
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5429] Config: added 'bgscan' value 'simple:30:-65:300'
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5429] Config: added 'key_mgmt' value 'WPA-EAP FT-EAP FT-EAP-SHA384 WPA-EAP-SHA256'
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5429] Config: added 'auth_alg' value 'OPEN'
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5429] Config: added 'password' value '<hidden>'
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5429] Config: added 'eap' value 'PEAP'
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5429] Config: added 'fragment_size' value '1266'
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5429] Config: added 'phase2' value 'auth=MSCHAPV2'
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5429] Config: added 'identity' value 'jga47559'
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5429] Config: added 'proactive_key_caching' value '1'
+Oct 23 21:46:03 cachyos-x8664 wpa_supplicant[868]: wlan0: SME: Trying to authenticate with e6:55:b8:0e:f3:47 (SSID='Bethel' freq=5785 MHz)
+Oct 23 21:46:03 cachyos-x8664 kernel: wlan0: authenticate with e6:55:b8:0e:f3:47 (local address=34:6f:24:7e:9c:0d)
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5614] device (wlan0): supplicant interface state: disconnected -> authenticating
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5615] device (p2p-dev-wlan0): supplicant management interface state: disconnected -> authenticating
+Oct 23 21:46:03 cachyos-x8664 kernel: wlan0: send auth to e6:55:b8:0e:f3:47 (try 1/3)
+Oct 23 21:46:03 cachyos-x8664 wpa_supplicant[868]: wlan0: Trying to associate with e6:55:b8:0e:f3:47 (SSID='Bethel' freq=5785 MHz)
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5642] device (wlan0): supplicant interface state: authenticating -> associating
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5642] device (p2p-dev-wlan0): supplicant management interface state: authenticating -> associating
+Oct 23 21:46:03 cachyos-x8664 kernel: wlan0: authenticated
+Oct 23 21:46:03 cachyos-x8664 kernel: wlan0: associate with e6:55:b8:0e:f3:47 (try 1/3)
+Oct 23 21:46:03 cachyos-x8664 kernel: wlan0: RX AssocResp from e6:55:b8:0e:f3:47 (capab=0x1511 status=0 aid=5)
+Oct 23 21:46:03 cachyos-x8664 kernel: wlan0: associated
+Oct 23 21:46:03 cachyos-x8664 wpa_supplicant[868]: wlan0: Associated with e6:55:b8:0e:f3:47
+Oct 23 21:46:03 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-EAP-STARTED EAP authentication started
+Oct 23 21:46:03 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5821] device (wlan0): supplicant interface state: associating -> associated
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.5821] device (p2p-dev-wlan0): supplicant management interface state: associating -> associated
+Oct 23 21:46:03 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=25
+Oct 23 21:46:03 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-EAP-METHOD EAP vendor 0 method 25 (PEAP) selected
+Oct 23 21:46:03 cachyos-x8664 kernel: wlan0: Limiting TX power to 30 (30 - 0) dBm as advertised by e6:55:b8:0e:f3:47
+Oct 23 21:46:03 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-EAP-PEER-CERT depth=1 subject='/C=US/ST=Minnesota/L=Saint Paul/O=Bethel University/CN=Bethel University eduroam Root CA 2016' hash=9686c8951db7426f1aa1e71ce>
+Oct 23 21:46:03 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-EAP-PEER-CERT depth=1 subject='/C=US/ST=Minnesota/L=Saint Paul/O=Bethel University/CN=Bethel University eduroam Root CA 2016' hash=9686c8951db7426f1aa1e71ce>
+Oct 23 21:46:03 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-EAP-PEER-CERT depth=0 subject='/CN=ise-betun-bsp-1.net.its.bethel.edu/O=Bethel University/L=Saint Paul/ST=Minnesota/C=US' hash=f2e62fdf544ac49c0da250d924806>
+Oct 23 21:46:03 cachyos-x8664 wpa_supplicant[868]: EAP-MSCHAPV2: Authentication succeeded
+Oct 23 21:46:03 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+Oct 23 21:46:03 cachyos-x8664 wpa_supplicant[868]: wlan0: PMKSA-CACHE-ADDED e6:55:b8:0e:f3:47 0
+Oct 23 21:46:03 cachyos-x8664 wpa_supplicant[868]: wlan0: WPA: Key negotiation completed with e6:55:b8:0e:f3:47 [PTK=CCMP GTK=CCMP]
+Oct 23 21:46:03 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-CONNECTED - Connection to e6:55:b8:0e:f3:47 completed [id=0 id_str=]
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.7286] device (wlan0): supplicant interface state: associated -> completed
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.7287] device (wlan0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Bethel"
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.7287] device (p2p-dev-wlan0): supplicant management interface state: associated -> completed
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.7287] device (wlan0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.7290] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+Oct 23 21:46:03 cachyos-x8664 avahi-daemon[782]: Joining mDNS multicast group on interface wlan0.IPv6 with address fe80::6cfa:f0fa:11b8:2d0d.
+Oct 23 21:46:03 cachyos-x8664 avahi-daemon[782]: New relevant interface wlan0.IPv6 for mDNS.
+Oct 23 21:46:03 cachyos-x8664 avahi-daemon[782]: Registering new address record for fe80::6cfa:f0fa:11b8:2d0d on wlan0.*.
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.7431] dhcp4 (wlan0): state changed new lease, address=10.73.127.175, acd pending
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.8812] dhcp4 (wlan0): state changed new lease, address=10.73.127.175
+Oct 23 21:46:03 cachyos-x8664 avahi-daemon[782]: Joining mDNS multicast group on interface wlan0.IPv4 with address 10.73.127.175.
+Oct 23 21:46:03 cachyos-x8664 avahi-daemon[782]: New relevant interface wlan0.IPv4 for mDNS.
+Oct 23 21:46:03 cachyos-x8664 avahi-daemon[782]: Registering new address record for 10.73.127.175 on wlan0.IPv4.
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.8831] policy: set 'Bethel' (wlan0) as default for IPv4 routing and DNS
+Oct 23 21:46:03 cachyos-x8664 systemd-resolved[510]: wlan0: Bus client set search domain list to: bethel.edu
+Oct 23 21:46:03 cachyos-x8664 discord[1633]: 21:46:03.884 › [GatewaySocket] Connection has reset backoff for reason: network detected online.
+Oct 23 21:46:03 cachyos-x8664 discord[1633]: 21:46:03.884 › [GatewaySocket] Setting connection state to CONNECTING
+Oct 23 21:46:03 cachyos-x8664 systemd-resolved[510]: wlan0: Bus client set default route setting: yes
+Oct 23 21:46:03 cachyos-x8664 discord[1633]: 21:46:03.884 › [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+Oct 23 21:46:03 cachyos-x8664 systemd-resolved[510]: wlan0: Bus client set DNS server list to: 140.88.127.248, 140.88.127.249, 8.8.8.8
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.8926] device (wlan0): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.8935] device (wlan0): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.8936] device (wlan0): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.8938] manager: NetworkManager state is now CONNECTED_SITE
+Oct 23 21:46:03 cachyos-x8664 NetworkManager[781]: <info>  [1761273963.8940] device (wlan0): Activation: successful, device activated.
+Oct 23 21:46:04 cachyos-x8664 discord[1633]: 21:46:04.001 › [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 117 ms
+Oct 23 21:46:04 cachyos-x8664 discord[1633]: 21:46:04.001 › [GatewaySocket] Setting connection state to RESUMING
+Oct 23 21:46:04 cachyos-x8664 discord[1633]: 21:46:04.001 › [GatewaySocket] [RESUME] resuming session 4508aea56588c95220696571f4a015eb, seq: 69
+Oct 23 21:46:04 cachyos-x8664 discord[1633]: 21:46:04.002 › [GatewaySocket] [HELLO] via
+Oct 23 21:46:04 cachyos-x8664 discord[1633]: gateway-prd-arm-us-east1-b-g8k3: 0, heartbeat interval: 41250, took 117 ms
+Oct 23 21:46:04 cachyos-x8664 discord[1633]: 21:46:04.042 › [GatewaySocket]
+Oct 23 21:46:04 cachyos-x8664 discord[1633]: gateway-prd-arm-us-east1-b-g8k3: 0.715
+Oct 23 21:46:04 cachyos-x8664 discord[1633]: |  id_created: 0
+Oct 23 21:46:04 cachyos-x8664 discord[1633]: |  session_lookup_time: 0.263
+Oct 23 21:46:04 cachyos-x8664 discord[1633]: |  session_lookup_finished: 0.009
+Oct 23 21:46:04 cachyos-x8664 discord[1633]: |  discord-sessions-prd-2-113: 0.028
+Oct 23 21:46:04 cachyos-x8664 discord[1633]: 21:46:04.042 › [GatewaySocket] Setting connection state to SESSION_ESTABLISHED
+Oct 23 21:46:04 cachyos-x8664 discord[1633]: 21:46:04.092 › [Flux] Dispatching CONNECTION_RESUMED
+Oct 23 21:46:04 cachyos-x8664 discord[1633]: 21:46:04.093 › [GatewaySocket] [RESUMED] took 209ms, replayed 0 events, new seq: 77
+Oct 23 21:46:04 cachyos-x8664 NetworkManager[781]: <info>  [1761273964.1480] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 23 21:46:04 cachyos-x8664 kdeconnectd[1494]: Failed to send mDNS query: Cannot assign requested address
+Oct 23 21:46:04 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-72 noise=9999 txrate=137600
+Oct 23 21:46:04 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=137600
+Oct 23 21:46:05 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=154800
+Oct 23 21:46:05 cachyos-x8664 kernel: [UFW BLOCK] IN=wlan0 OUT= MAC= SRC=fe80:0000:0000:0000:6cfa:f0fa:11b8:2d0d DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=79 TC=0 HOPLIMIT=255 FLOWLBL=41431 PROTO=UDP SPT=5355 DPT=5355 L>
+Oct 23 21:46:05 cachyos-x8664 kernel: [UFW BLOCK] IN=wlan0 OUT= MAC= SRC=fe80:0000:0000:0000:6cfa:f0fa:11b8:2d0d DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=79 TC=0 HOPLIMIT=255 FLOWLBL=41431 PROTO=UDP SPT=5355 DPT=5355 L>
+Oct 23 21:46:05 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=154800
+Oct 23 21:46:06 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=154800
+Oct 23 21:46:06 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-69 noise=9999 txrate=172000
+Oct 23 21:46:07 cachyos-x8664 discord[1633]: 21:46:07.199 › The resource https://discordapp.com/assets/189422196a4f8b53.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Pl>
+Oct 23 21:46:07 cachyos-x8664 discord[1633]: 21:46:07.200 › The resource https://discordapp.com/assets/7a6a566c2e88a35d.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Pl>
+Oct 23 21:46:07 cachyos-x8664 discord[1633]: 21:46:07.200 › The resource https://discordapp.com/assets/dd24010f3cf7def7.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Pl>
+Oct 23 21:46:07 cachyos-x8664 discord[1633]: 21:46:07.200 › The resource https://discordapp.com/assets/e52f0cba712e2fb4.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Pl>
+Oct 23 21:46:07 cachyos-x8664 discord[1633]: 21:46:07.200 › The resource https://discordapp.com/assets/ce3b8055f5114434.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Pl>
+Oct 23 21:46:07 cachyos-x8664 discord[1633]: 21:46:07.201 › The resource https://discordapp.com/assets/cb2006dbced0e246.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Pl>
+Oct 23 21:46:07 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=172000
+Oct 23 21:46:07 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=172000
+Oct 23 21:46:08 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=172000
+Oct 23 21:46:08 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=172000
+Oct 23 21:46:09 cachyos-x8664 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Oct 23 21:46:09 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=172000
+Oct 23 21:46:09 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=172000
+Oct 23 21:46:10 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-69 noise=9999 txrate=172000
+Oct 23 21:46:10 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=172000
+Oct 23 21:46:11 cachyos-x8664 kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:14:9f:43:d3:7f:56:08:00 SRC=0.0.0.0 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0xC0 TTL=1 ID=37533 PROTO=2 
+Oct 23 21:46:11 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=172000
+Oct 23 21:46:11 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=172000
+Oct 23 21:46:12 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=172000
+Oct 23 21:46:12 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=172000
+Oct 23 21:46:13 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-73 noise=9999 txrate=172000
+Oct 23 21:46:13 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=172000
+Oct 23 21:46:14 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-72 noise=9999 txrate=172000
+Oct 23 21:46:14 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=206500
+Oct 23 21:46:14 cachyos-x8664 kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=33:33:00:01:00:03:c8:a3:e8:4f:bd:7f:86:dd SRC=fe80:0000:0000:0000:8d75:9805:6662:2999 DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=81 TC=0 HOPLIMIT=1 FLOW>
+Oct 23 21:46:15 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=206500
+Oct 23 21:46:15 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=206500
+Oct 23 21:46:16 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=206500
+Oct 23 21:46:16 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-69 noise=9999 txrate=229400
+Oct 23 21:46:17 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-69 noise=9999 txrate=229400
+Oct 23 21:46:17 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=229400
+Oct 23 21:46:18 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=229400
+Oct 23 21:46:18 cachyos-x8664 discord[1633]: 21:46:18.567 › [Spotify] WS Connecting
+Oct 23 21:46:18 cachyos-x8664 wpa_supplicant[868]: wlan0: PMKSA-CACHE-ADDED e6:55:b8:0e:f3:97 0
+Oct 23 21:46:18 cachyos-x8664 wpa_supplicant[868]: wlan0: PMKSA-CACHE-ADDED e6:55:b8:0e:f4:5a 0
+Oct 23 21:46:18 cachyos-x8664 wpa_supplicant[868]: wlan0: PMKSA-CACHE-ADDED e4:55:a8:0e:f4:f7 0
+Oct 23 21:46:18 cachyos-x8664 wpa_supplicant[868]: wlan0: PMKSA-CACHE-ADDED e6:55:b8:0e:f4:f7 0
+Oct 23 21:46:18 cachyos-x8664 wpa_supplicant[868]: wlan0: PMKSA-CACHE-ADDED e4:55:a8:0e:f4:5a 0
+Oct 23 21:46:18 cachyos-x8664 wpa_supplicant[868]: wlan0: PMKSA-CACHE-ADDED e4:55:a8:0e:f3:97 0
+Oct 23 21:46:18 cachyos-x8664 wpa_supplicant[868]: wlan0: PMKSA-CACHE-ADDED e4:55:a8:0e:f4:fc 0
+Oct 23 21:46:18 cachyos-x8664 wpa_supplicant[868]: wlan0: PMKSA-CACHE-ADDED e6:55:b8:0e:f4:fc 0
+Oct 23 21:46:18 cachyos-x8664 wpa_supplicant[868]: wlan0: PMKSA-CACHE-ADDED e6:55:b8:0e:f4:44 0
+Oct 23 21:46:18 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-69 noise=9999 txrate=229400
+Oct 23 21:46:18 cachyos-x8664 discord[1633]: 21:46:18.951 › [Spotify] WS Connected
+Oct 23 21:46:19 cachyos-x8664 discord[1633]: 21:46:19.049 › [Spotify] Devices updated for wx8q2ev5p1bbjrnf0i4tylfvo: [object Object]
+Oct 23 21:46:19 cachyos-x8664 discord[1633]: 21:46:19.054 › [Spotify] Profile updated for wx8q2ev5p1bbjrnf0i4tylfvo: isPremium = true
+Oct 23 21:46:19 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=229400
+Oct 23 21:46:19 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=258000
+Oct 23 21:46:20 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=258000
+Oct 23 21:46:20 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=258000
+Oct 23 21:46:21 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=258000
+Oct 23 21:46:21 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=258000
+Oct 23 21:46:22 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=258000
+Oct 23 21:46:22 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=258000
+Oct 23 21:46:23 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-74 noise=9999 txrate=258000
+Oct 23 21:46:23 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-73 noise=9999 txrate=258000
+Oct 23 21:46:24 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-73 noise=9999 txrate=258000
+Oct 23 21:46:24 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-73 noise=9999 txrate=258000
+Oct 23 21:46:25 cachyos-x8664 discord[1633]: 21:46:25.055 › The resource https://discordapp.com/assets/189422196a4f8b53.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Pl>
+Oct 23 21:46:25 cachyos-x8664 discord[1633]: 21:46:25.055 › The resource https://discordapp.com/assets/7a6a566c2e88a35d.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Pl>
+Oct 23 21:46:25 cachyos-x8664 discord[1633]: 21:46:25.056 › The resource https://discordapp.com/assets/dd24010f3cf7def7.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Pl>
+Oct 23 21:46:25 cachyos-x8664 discord[1633]: 21:46:25.056 › The resource https://discordapp.com/assets/e52f0cba712e2fb4.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Pl>
+Oct 23 21:46:25 cachyos-x8664 discord[1633]: 21:46:25.056 › The resource https://discordapp.com/assets/ce3b8055f5114434.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Pl>
+Oct 23 21:46:25 cachyos-x8664 discord[1633]: 21:46:25.056 › The resource https://discordapp.com/assets/cb2006dbced0e246.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Pl>
+Oct 23 21:46:25 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=258000
+Oct 23 21:46:25 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=258000
+Oct 23 21:46:26 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=258000
+Oct 23 21:46:26 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=258000
+Oct 23 21:46:27 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-69 noise=9999 txrate=258000
+Oct 23 21:46:27 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=258000
+Oct 23 21:46:28 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=258000
+Oct 23 21:46:28 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=258000
+Oct 23 21:46:29 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=258000
+Oct 23 21:46:29 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=258000
+Oct 23 21:46:30 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=258000
+Oct 23 21:46:30 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=258000
+Oct 23 21:46:31 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=258000
+Oct 23 21:46:31 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=258000
+Oct 23 21:46:31 cachyos-x8664 kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:fc:14:b5:cd:16:aa:eb:08:00 SRC=10.73.62.57 DST=224.0.0.252 LEN=53 TOS=0x00 PREC=0x00 TTL=1 ID=15870 PROTO=UDP SPT=50538 DPT=5355 LEN=33 
+Oct 23 21:46:32 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=258000
+Oct 23 21:46:32 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=258000
+Oct 23 21:46:33 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-72 noise=9999 txrate=258000
+Oct 23 21:46:33 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-69 noise=9999 txrate=258000
+Oct 23 21:46:34 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=229400
+Oct 23 21:46:34 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=229400
+Oct 23 21:46:35 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=229400
+Oct 23 21:46:35 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=229400
+Oct 23 21:46:36 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=229400
+Oct 23 21:46:36 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=258000
+Oct 23 21:46:37 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=258000
+Oct 23 21:46:37 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=258000
+Oct 23 21:46:38 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=258000
+Oct 23 21:46:38 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=258000
+Oct 23 21:46:39 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=258000
+Oct 23 21:46:39 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=286700
+Oct 23 21:46:40 cachyos-x8664 wpa_supplicant[868]: wlan0: PMKSA-CACHE-ADDED e4:55:a8:0e:f3:47 0
+Oct 23 21:46:40 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=103200
+Oct 23 21:46:40 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=103200
+Oct 23 21:46:41 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=229400
+Oct 23 21:46:41 cachyos-x8664 kernel: asus 0003:0B05:19B6.0004: Unmapped Asus vendor usagepage code 0xec
+Oct 23 21:46:41 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=286700
+Oct 23 21:46:42 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-69 noise=9999 txrate=286700
+Oct 23 21:46:42 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=286700
+Oct 23 21:46:43 cachyos-x8664 kscreenlocker_greet[4352]: Could not create EGL surface (EGL error 0x3003)
+Oct 23 21:46:43 cachyos-x8664 kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=33:33:00:01:00:03:c8:a3:e8:4f:bd:7f:86:dd SRC=fe80:0000:0000:0000:8d75:9805:6662:2999 DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=81 TC=0 HOPLIMIT=1 FLOW>
+Oct 23 21:46:43 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=229400
+Oct 23 21:46:43 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-69 noise=9999 txrate=229400
+Oct 23 21:46:44 cachyos-x8664 kscreenlocker_greet[4352]: Failed to write to the pipe: Bad file descriptor.
+Oct 23 21:46:44 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=229400
+Oct 23 21:46:44 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=229400
+Oct 23 21:46:45 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=229400
+Oct 23 21:46:45 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=229400
+Oct 23 21:46:46 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=229400
+Oct 23 21:46:46 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=229400
+Oct 23 21:46:47 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=286700
+Oct 23 21:46:47 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=286700
+Oct 23 21:46:48 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=286700
+Oct 23 21:46:48 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=286700
+Oct 23 21:46:49 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=229400
+Oct 23 21:46:49 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=229400
+Oct 23 21:46:50 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=286700
+Oct 23 21:46:50 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=286700
+Oct 23 21:46:51 cachyos-x8664 kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:14:9f:43:d3:7f:56:08:00 SRC=0.0.0.0 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0xC0 TTL=1 ID=37546 PROTO=2 
+Oct 23 21:46:51 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-72 noise=9999 txrate=286700
+Oct 23 21:46:51 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=286700
+Oct 23 21:46:52 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=286700
+Oct 23 21:46:52 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=286700
+Oct 23 21:46:53 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=286700
+Oct 23 21:46:53 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-73 noise=9999 txrate=286700
+Oct 23 21:46:54 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=229400
+Oct 23 21:46:54 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=286700
+Oct 23 21:46:55 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=286700
+Oct 23 21:46:55 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-69 noise=9999 txrate=286700
+Oct 23 21:46:56 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=229400
+Oct 23 21:46:56 cachyos-x8664 discord[1633]: 21:46:56.439 › [Spotify] Devices updated for wx8q2ev5p1bbjrnf0i4tylfvo: [object Object]
+Oct 23 21:46:56 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=229400
+Oct 23 21:46:57 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=229400
+Oct 23 21:46:57 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=229400
+Oct 23 21:46:58 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=229400
+Oct 23 21:46:58 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=286700
+Oct 23 21:46:59 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-70 noise=9999 txrate=286700
+Oct 23 21:46:59 cachyos-x8664 discord[1633]: 21:46:59.474 › The resource https://discordapp.com/assets/189422196a4f8b53.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Pl>
+Oct 23 21:46:59 cachyos-x8664 discord[1633]: 21:46:59.475 › The resource https://discordapp.com/assets/7a6a566c2e88a35d.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Pl>
+Oct 23 21:46:59 cachyos-x8664 discord[1633]: 21:46:59.475 › The resource https://discordapp.com/assets/dd24010f3cf7def7.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Pl>
+Oct 23 21:46:59 cachyos-x8664 discord[1633]: 21:46:59.475 › The resource https://discordapp.com/assets/e52f0cba712e2fb4.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Pl>
+Oct 23 21:46:59 cachyos-x8664 discord[1633]: 21:46:59.475 › The resource https://discordapp.com/assets/ce3b8055f5114434.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Pl>
+Oct 23 21:46:59 cachyos-x8664 discord[1633]: 21:46:59.476 › The resource https://discordapp.com/assets/cb2006dbced0e246.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Pl>
+Oct 23 21:46:59 cachyos-x8664 discord[1633]: 21:46:59.740 › [Spotify] Devices updated for wx8q2ev5p1bbjrnf0i4tylfvo: [object Object]
+Oct 23 21:46:59 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=286700
+Oct 23 21:46:59 cachyos-x8664 kernel: [UFW BLOCK] IN=wlan0 OUT= MAC=33:33:00:01:00:03:a0:e7:0b:79:92:f3:86:dd SRC=fe80:0000:0000:0000:cb5b:c29c:faf1:13fb DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=81 TC=0 HOPLIMIT=1 FLOW>
+Oct 23 21:47:00 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=286700
+Oct 23 21:47:00 cachyos-x8664 wpa_supplicant[868]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-71 noise=9999 txrate=286700
